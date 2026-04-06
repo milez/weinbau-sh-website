@@ -202,6 +202,27 @@
     "beschreibung": "Ehrenamtliches Weinprojekt dreier Sylter Quereinsteiger. Nördlichster Weinberg Deutschlands."
   },
   {
+    "id": "amrum-trenz",
+    "name": "Weingut Trenz (Weinberg Amrum)",
+    "ort": "Süddorf, Amrum",
+    "region": "Nordfriesland",
+    "gruendung": 2021,
+    "flaeche_ha": 0.5,
+    "sorten": [
+      "Muscaris"
+    ],
+    "vinifikation": "Fremd: Weingut Trenz, Hattenheim/Rheingau",
+    "bio": false,
+    "besonderheiten": "Rheingauer Traditionsweingut (350 Jahre) mit Weinberg auf Amrum. Kooperation mit Hof Martinen in Süddorf. Erste Ernte September 2024, ca. 750 Flaschen.",
+    "bezugsquellen": [
+      "Weingut Trenz Online-Shop",
+      "LIKEDEELER Amrum",
+      "Amrumer Bierverlag"
+    ],
+    "website": "https://www.weingut-trenz.com",
+    "beschreibung": "Rheingauer Traditionsweingut mit Weinberg auf der Nordseeinsel Amrum. Erste Ernte 2024."
+  },
+  {
     "id": "balthasar-ress",
     "name": "Weingut Balthasar Ress (Weinberg Sylt-Keitum)",
     "ort": "Keitum, Sylt",

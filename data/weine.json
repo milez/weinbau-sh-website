@@ -570,5 +570,18 @@
     "preis_eur": null,
     "anmerkung": "Sortiment im Aufbau",
     "shop_url": "kontakt.html"
+  },
+  {
+    "id": "amrum-waastwinj-2025",
+    "name": "Waastwinj 2025",
+    "weingut_id": "amrum-trenz",
+    "weingut_name": "Trenz (Amrum)",
+    "sorte": "Muscaris",
+    "typ": "Weißwein",
+    "ausbau": "trocken",
+    "jahrgang": 2025,
+    "preis_eur": 24.9,
+    "anmerkung": "Erste Ernte Amrum. Ca. 750 Flaschen, ausverkauft.",
+    "shop_url": "https://www.weingut-trenz.com/en/products/2024-waastwinj"
   }
 ]
