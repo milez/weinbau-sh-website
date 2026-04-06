@@ -426,7 +426,7 @@
     "jahrgang": 2023,
     "preis_eur": 15.0,
     "anmerkung": "Flaggschiff-Wein",
-    "shop_url": "https://www.schatoh-feldmark.de/shop"
+    "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-das-original-trocken"
   },
   {
     "id": "schatoh-nord-2023",
@@ -439,7 +439,7 @@
     "jahrgang": 2023,
     "preis_eur": 15.0,
     "anmerkung": "",
-    "shop_url": "https://www.schatoh-feldmark.de/shop"
+    "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-nord-trocken"
   },
   {
     "id": "schatoh-drei-trauben-trocken-2023",
@@ -452,7 +452,7 @@
     "jahrgang": 2023,
     "preis_eur": 15.0,
     "anmerkung": "",
-    "shop_url": "https://www.schatoh-feldmark.de/shop"
+    "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-drei-trauben-trocken"
   },
   {
     "id": "schatoh-drei-trauben-feinherb-2023",
@@ -465,7 +465,7 @@
     "jahrgang": 2023,
     "preis_eur": 15.0,
     "anmerkung": "",
-    "shop_url": "https://www.schatoh-feldmark.de/shop"
+    "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-drei-trauben-feinherb"
   },
   {
     "id": "schatoh-sieben-eichen-2023",
@@ -478,7 +478,7 @@
     "jahrgang": 2023,
     "preis_eur": 20.0,
     "anmerkung": "Falstaff 91+ Pkt. (Jhg. 2022)",
-    "shop_url": "https://www.schatoh-feldmark.de/shop"
+    "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-sieben-eichen-barrique-trocken"
   },
   {
     "id": "eckhof-2022-cuvee",
