@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wein aus Schleswig-Holstein – Preise, Kosten & Wirtschaftlichkeit</title>
+  <meta name="description" content="Warum Wein aus Schleswig-Holstein mehr kostet — und warum das gerechtfertigt ist. Preisvergleiche, Kostenstrukturen und Direktvertrieb.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Wein aus Schleswig-Holstein – Preise & Wirtschaftlichkeit">
+  <meta property="og:locale" content="de_DE">
+  <link rel="canonical" href="https://weinbau-sh.de/wirtschaftlichkeit.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    .page-hero{background:var(--color-accent);color:var(--color-white);padding:5rem 1.5rem 4rem}
+    .page-hero .container{max-width:var(--max-width);margin:0 auto}
+    .page-hero .label{color:rgba(255,255,255,.75)}
+    .page-hero h1{color:var(--color-white);margin-bottom:1rem}
+    .page-hero .lead{color:rgba(255,255,255,.78);max-width:640px}
+
+    .article-layout{display:grid;grid-template-columns:1fr 260px;gap:4rem;align-items:start}
+    .article-sidebar{position:sticky;top:5rem}
+    .sidebar-box{background:var(--color-light);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem}
+    .sidebar-box h4{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--color-muted);margin-bottom:.8rem;margin-top:0}
+    .sidebar-box ol{padding-left:1.2rem;margin:0}
+    .sidebar-box li{margin-bottom:.4rem}
+    .sidebar-box a{font-size:.83rem;color:var(--color-text)}
+    .sidebar-box a:hover{color:var(--color-accent2)}
+
+    .article-body h2{border-top:2px solid var(--color-accent);padding-top:1.5rem;margin-top:3rem}
+    .article-body h2:first-child{border-top:none;padding-top:0;margin-top:0}
+    .article-body p{max-width:680px}
+
+    .vergleich-table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.88rem}
+    .vergleich-table th{background:var(--color-accent);color:#fff;padding:.8rem 1rem;text-align:left;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+    .vergleich-table td{padding:.8rem 1rem;border-bottom:1px solid var(--color-border);vertical-align:top}
+    .vergleich-table tr:last-child td{border-bottom:none}
+    .vergleich-table tr:nth-child(even) td{background:var(--color-light)}
+    .vergleich-table .td-produkt{font-weight:500;color:var(--color-accent)}
+    .vergleich-table .td-preis{font-family:var(--font-heading);color:var(--color-accent2);white-space:nowrap}
+
+    .kernthese{background:var(--color-accent);color:#fff;padding:2rem 2.4rem;border-radius:var(--radius);margin:2.5rem 0;max-width:680px}
+    .kernthese p{color:rgba(255,255,255,.9);font-family:var(--font-heading);font-style:italic;font-size:1.05rem;line-height:1.6;margin-bottom:0}
+
+    .kosten-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0}
+    .kosten-item{border:1px solid var(--color-border);border-top:3px solid var(--color-accent2);padding:1.5rem;border-radius:0 0 var(--radius) var(--radius)}
+    .kosten-item h4{font-size:.88rem;color:var(--color-accent);margin-top:0;margin-bottom:.5rem}
+    .kosten-item p{font-size:.83rem;color:var(--color-muted);margin-bottom:0}
+
+    .wachstum-chart{display:grid;gap:.5rem;margin:2rem 0}
+    .chart-row{display:grid;grid-template-columns:50px 1fr 60px;gap:.8rem;align-items:center;font-size:.85rem}
+    .chart-year{color:var(--color-muted);font-size:.78rem;text-align:right}
+    .chart-bar-wrap{background:var(--color-light);border-radius:2px;height:28px;overflow:hidden}
+    .chart-bar{height:100%;background:var(--color-accent);border-radius:2px;transition:width .6s ease;display:flex;align-items:center;padding-left:.6rem;min-width:2px}
+    .chart-bar span{color:#fff;font-size:.72rem;font-weight:500;white-space:nowrap}
+    .chart-val{font-family:var(--font-heading);font-size:.88rem;color:var(--color-accent2)}
+
+    @media(max-width:900px){
+      .article-layout{grid-template-columns:1fr}
+      .article-sidebar{display:none}
+      .kosten-grid{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:600px){.kosten-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-main">
+      <a href="index.html" class="nav-logo">Weinbau · <span>Schleswig-Holstein</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="geschichte.html">Geschichte</a></li>
+        <li><a href="anbaugebiete.html">Rebsorten</a></li>
+        <li><a href="weingueter.html">Weingüter</a></li>
+        <li><a href="weine.html">Weine</a></li>
+        <li><a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <h1>Was SH-Wein kostet — und warum das stimmt</h1>
+      <p class="lead">Eine sachliche Analyse der Kostenstruktur, der Preispositionierung und des regionalen Kontexts. Mit Vergleichen, die zeigen: diese Preislogik ist in Schleswig-Holstein seit Generationen bekannt.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="article-layout">
+        <article class="article-body">
+
+          <h2 id="kosten">Strukturelle Kostennachteile — und warum sie kein Argument gegen den Wein sind</h2>
+          <p>Wein aus Schleswig-Holstein ist teurer als Moselwein aus dem Supermarkt. Das ist eine Tatsache — und sie hat konkrete Ursachen, die nichts mit Marketingaufschlägen zu tun haben.</p>
+
+          <div class="kosten-grid">
+            <div class="kosten-item">
+              <h4>Kleinstmengen</h4>
+              <p>Das größte Weingut SH, der Ingenhof, bewirtschaftet 7,8 ha. Die meisten Betriebe liegen bei 1–2 ha. Skaleneffekte, die in der Pfalz oder an der Mosel Flaschenpreise unter 5 Euro ermöglichen, sind hier strukturell ausgeschlossen.</p>
+            </div>
+            <div class="kosten-item">
+              <h4>Handarbeit</h4>
+              <p>Maschinenlese ist auf den meisten SH-Flächen nicht wirtschaftlich sinnvoll. Die Ernte erfolgt per Hand — arbeitsintensiv, teuer, aber qualitätssichernd. Gut Deutsch-Nienhof macht das ausdrücklich zum Prinzip.</p>
+            </div>
+            <div class="kosten-item">
+              <h4>Direktvertrieb</h4>
+              <p>Wer direkt ab Hof oder online verkauft, übernimmt Logistik, Marketing und Kundenkommunikation selbst. Das kostet — und schlägt sich im Preis nieder. Gleichzeitig sichert es die Marge, die für den Betrieb nötig ist.</p>
+            </div>
+          </div>
+
+          <p>Diese Strukturen sind kein Nachteil — sie sind das Geschäftsmodell. Und sie entsprechen dem, was in der Weinwelt als „handwerklicher Weinbau" bezeichnet und von Weinkennern geschätzt wird.</p>
+
+          <h2 id="vergleich">Preisvergleich: SH-Wein und der Markt</h2>
+          <p>Wer SH-Weine mit 12–22 Euro als teuer empfindet, vergleicht sie oft implizit mit Massenweinen. Der richtige Vergleich ist ein anderer:</p>
+
+          <table class="vergleich-table">
+            <thead>
+              <tr>
+                <th>Produkt / Kategorie</th>
+                <th>Preisbereich</th>
+                <th>Vergleichbarkeit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="td-produkt">SH-Weißwein (Solaris, Johanniter)</td>
+                <td class="td-preis">12–22 €</td>
+                <td>Handwerklich, Direktvertrieb, Kleinstmengen</td>
+              </tr>
+              <tr>
+                <td class="td-produkt">Rheingau-Gutswein, gutes Weingut</td>
+                <td class="td-preis">12–20 €</td>
+                <td>Ähnliche Preisstufe, etablierter Name</td>
+              </tr>
+              <tr>
+                <td class="td-produkt">Saale-Unstrut, Winzergenossenschaft</td>
+                <td class="td-preis">8–15 €</td>
+                <td>Andere Nordgrenzregion, günstiger durch Größe</td>
+              </tr>
+              <tr>
+                <td class="td-produkt">Südtiroler Weißwein, DOC</td>
+                <td class="td-preis">15–35 €</td>
+                <td>Berglagen, Tourismus, Herkunftsimage — hohe Akzeptanz</td>
+              </tr>
+              <tr>
+                <td class="td-produkt">SH-Schaumwein „Söl'ring Extra Brut"</td>
+                <td class="td-preis">65 €</td>
+                <td>Nördlichster Weinberg Deutschlands, Nischenpositionierung</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Der Befund: SH-Weine bewegen sich im mittleren Preissegment handwerklicher deutscher Weine. Sie sind nicht günstiger als Vergleichbares — aber auch nicht teurer.</p>
+
+          <h2 id="tourismus">Das Regionalpremium: eine Logik, die hier seit Generationen gilt</h2>
+          <p>Schleswig-Holstein ist eine der meistbesuchten Urlaubsregionen Deutschlands. Sylt, Föhr, die Holsteinische Schweiz — Touristen kommen hierher und kaufen bewusst regional. Dieser Kontext schafft eine Bereitschaft für Preise, die im überregionalen Vergleich hoch wirken, in ihrer Region aber als normal gelten. Das ist kein neues Phänomen.</p>
+
+          <p><strong>Lokalbrauereien</strong> machen das seit Jahrzehnten vor. Sylter Bräu, Rügener Insel-Brauerei, Störtebeker aus Stralsund: alle erzielen Flaschenpreise, die das Drei- bis Vierfache von Industriebier betragen. Kein Urlauber zweifelt daran. Das regionale Handwerksprodukt ist Teil des Erlebnisses — und sein Preis wird nicht als Aufschlag, sondern als Wert empfunden.</p>
+
+          <p><strong>Sylter Austern</strong> von Dittmeyer's stehen bei 3 bis 5 Euro pro Stück — ein Weltmarktpreis, der ausschließlich auf Herkunftsimage basiert. Die Austern selbst sind biologisch nicht besser als französische Belon-Austern. Aber sie kommen von Sylt. Das ist der Preis.</p>
+
+          <p><strong>Alpenweine</strong> aus Südtirol oder dem Wallis kosten regelmäßig 20 bis 40 Euro — getragen von Lage, Knappheit und einem Image, das über Jahrzehnte aufgebaut wurde. Das Weinland Schleswig-Holstein befindet sich am Anfang dieses Weges.</p>
+
+          <div class="kernthese">
+            <p>Was der Sylter Bräu seit den 1990ern gelingt und die Austernzüchter schon lange vor ihm wussten, gilt heute auch für den Weinberg am Schierensee: In Schleswig-Holstein zahlt man für regionale Handwerksprodukte mehr — und tut das gerne. Nicht weil man muss, sondern weil Herkunft ein Wert ist.</p>
+          </div>
+
+          <h2 id="qualitaet">Qualität als Fundament</h2>
+          <p>Hohe Preise sind nur dann dauerhaft tragfähig, wenn das Produkt sie rechtfertigt. Für SH-Weine spricht eine wachsende Zahl von Belegen:</p>
+          <p>2015 belegte der Weißwein „So mookt wi dat" des Weinguts Montigny den zweiten Platz beim Landesweinbauinstitut Freiburg — in einer bundesweiten Verkostung pilzwiderstandsfähiger Sorten. Der Waalem Réserve 2022 von Föhr wird in Fachkreisen für sein Aromaprofil aus Eichenfassausbau und Hefelagerung besprochen. Der Kooperationspartner der Wittenseer Weinmanufaktur, Matthias Höfflin, wird im Eichelmann 2025 als Weltklasseweingut geführt.</p>
+          <p>Diese Auszeichnungen sind kein Beweis für Perfektion — aber sie zeigen, dass der Anspruch vorhanden ist und dass er in guten Jahrgängen eingelöst wird.</p>
+
+          <h2 id="nachhaltigkeit">Nachhaltige Wirtschaftlichkeit: das Modell funktioniert</h2>
+          <p>Der stärkste Beweis für die wirtschaftliche Tragfähigkeit des SH-Weinbaus ist schlicht: er wächst. Jedes Jahr kommen neue Betriebe hinzu, bestehende Betriebe erweitern ihre Flächen. Das passiert nicht durch Idealismus allein. Es passiert, weil die Rechnung aufgeht — weil Direktvertrieb, Weintourismus und regionale Nachfrage gemeinsam ein Modell ergeben, das funktioniert.</p>
+          <p>Die Betriebe die heute scheitern, tun das meist aus denselben Gründen wie Winzer überall: schlechte Jahrgänge, unterschätzte Investitionskosten, fehlende Vermarktungserfahrung. Nicht weil der Norden prinzipiell unwirtschaftlich wäre.</p>
+
+        </article>
+
+        <aside class="article-sidebar">
+          <div class="sidebar-box">
+            <h4>Inhalt</h4>
+            <ol>
+              <li><a href="#kosten">Strukturelle Kosten</a></li>
+              <li><a href="#vergleich">Preisvergleich</a></li>
+              <li><a href="#tourismus">Regionalpremium</a></li>
+              <li><a href="#qualitaet">Qualitätsbelege</a></li>
+              <li><a href="#nachhaltigkeit">Wirtschaftlichkeit</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-box">
+            <h4>Preisübersicht</h4>
+            <p style="font-size:.83rem;color:var(--color-muted);margin-bottom:.8rem;">Alle vermarkteten Weine mit Preisen:</p>
+            <a href="weine.html" class="card-link" style="font-size:.83rem;">Zur Wein-Tabelle →</a>
+          </div>
+        </aside>
+      </div>
+
+      <div style="margin-top:4rem;border-top:2px solid var(--color-accent);padding-top:1.5rem;">
+        <h2 id="flaechenwachstum">Flächenwachstum</h2>
+        <p style="max-width:680px;">Das Wachstum ist konstant und organisch — kein Boom, keine Subventionen, sondern neue Betriebe die wirtschaftlich überzeugt sind.</p>
+        <div class="wachstum-chart" aria-label="Jährliches Flächenwachstum Schleswig-Holstein">
+          <div class="chart-row"><span class="chart-year">2019</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:93%"><span>+4,53 ha</span></div></div><span class="chart-val">4,53</span></div>
+          <div class="chart-row"><span class="chart-year">2020</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:43%"><span>+2,11 ha</span></div></div><span class="chart-val">2,11</span></div>
+          <div class="chart-row"><span class="chart-year">2021</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:88%"><span>+4,30 ha</span></div></div><span class="chart-val">4,30</span></div>
+          <div class="chart-row"><span class="chart-year">2022</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:90%"><span>+4,38 ha</span></div></div><span class="chart-val">4,38</span></div>
+          <div class="chart-row"><span class="chart-year">2023</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:75%"><span>+3,67 ha</span></div></div><span class="chart-val">3,67</span></div>
+        </div>
+        <p style="font-size:.78rem;color:var(--color-muted);margin-top:.5rem;">Quelle: Wikipedia / Bundesanstalt für Landwirtschaft und Ernährung · Neugenehmigungen pro Jahr in Hektar</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Weinbau · <span>Schleswig-Holstein</span></div>
+        <p class="footer-desc">Eine sachliche Bestandsaufnahme des nördlichsten Weinbaus Deutschlands.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer-Navigation">
+        <a href="geschichte.html">Geschichte</a>
+        <a href="anbaugebiete.html">Rebsorten</a>
+        <a href="weingueter.html">Weingüter</a>
+        <a href="weine.html">Weine</a>
+        <a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 weinbau-sh.de</span>
+      <span>Informationswebsite · kein kommerzielles Angebot</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+</body>
+</html>

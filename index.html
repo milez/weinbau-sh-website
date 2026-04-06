@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wein aus Schleswig-Holstein – Weingüter, Weine & Weinanbau</title>
+  <meta name="description" content="Alles über Wein aus Schleswig-Holstein: Weingüter, Weine, Rebsorten, Preise und die Geschichte des nördlichsten Weinanbaus Deutschlands.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="weinbau-sh.de">
+  <meta property="og:title" content="Wein aus Schleswig-Holstein – Weingüter, Weine & Weinanbau">
+  <meta property="og:description" content="Weingüter, Weine, Rebsorten und Preise: eine sachliche Bestandsaufnahme des nördlichsten Weinanbaus Deutschlands.">
+  <meta property="og:image" content="https://weinbau-sh.de/img/og-image.jpg">
+  <meta property="og:url" content="https://weinbau-sh.de/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <link rel="canonical" href="https://weinbau-sh.de/">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Wein aus Schleswig-Holstein","url":"https://weinbau-sh.de","description":"Alles über Wein aus Schleswig-Holstein: Weingüter, Weine, Rebsorten, Preise und Weinanbau.","inLanguage":"de-DE"}
+  </script>
+  <style>
+    .argument-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--color-border);border-radius:var(--radius);overflow:hidden}
+    .argument-item{padding:2.8rem 2.4rem;border-right:1px solid var(--color-border);border-bottom:1px solid var(--color-border);position:relative}
+    .argument-item:nth-child(even){border-right:none}
+    .argument-item:nth-last-child(-n+2){border-bottom:none}
+    .argument-number{font-family:var(--font-heading);font-size:3rem;color:var(--color-light);position:absolute;top:1.2rem;right:1.6rem;line-height:1;user-select:none}
+    .argument-item h3{font-size:1rem;color:var(--color-accent);margin-top:0;margin-bottom:.8rem;padding-right:3rem}
+    .argument-item p{font-size:.9rem;line-height:1.65;margin-bottom:.6rem}
+    .fact-tag{display:inline-block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent2);font-weight:500;margin-top:.4rem}
+    .wachstum-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+    .wachstum-item{border-top:2px solid var(--color-accent);padding-top:1.5rem}
+    .wachstum-zahl{font-family:var(--font-heading);font-size:2.6rem;color:var(--color-accent);display:block;line-height:1;margin-bottom:.3rem}
+    .wachstum-zahl span{font-size:1.1rem;color:var(--color-accent2)}
+    .wachstum-item p{font-size:.88rem;color:var(--color-muted);margin-bottom:0}
+    .preis-vergleich{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+    .preis-item{background:var(--color-white);border:1px solid var(--color-border);border-radius:var(--radius);padding:1.8rem 1.4rem;text-align:center}
+    .preis-produkt{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--color-muted);margin-bottom:.6rem;display:block}
+    .preis-wert{font-family:var(--font-heading);font-size:1.5rem;color:var(--color-accent);display:block;margin-bottom:.5rem}
+    .preis-kontext{font-size:.8rem;color:var(--color-muted);line-height:1.45}
+    .sorten-liste{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .sorte-item{display:flex;gap:1rem;align-items:flex-start;padding:1.4rem;background:var(--color-white);border:1px solid var(--color-border);border-radius:var(--radius)}
+    .sorte-initial{width:38px;height:38px;min-width:38px;background:var(--color-accent);color:var(--color-white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-size:.9rem;font-weight:700}
+    .sorte-item h4{font-size:.92rem;margin-bottom:.25rem;color:var(--color-accent)}
+    .sorte-item p{font-size:.82rem;color:var(--color-muted);margin-bottom:0}
+    .timeline-kompakt{display:flex;flex-direction:column;position:relative;padding-left:2rem}
+    .timeline-kompakt::before{content:'';position:absolute;left:5px;top:8px;bottom:8px;width:2px;background:var(--color-border)}
+    .tl-item{position:relative;padding:.8rem 0 .8rem 1.5rem}
+    .tl-item::before{content:'';position:absolute;left:-1.55rem;top:1.1rem;width:10px;height:10px;border-radius:50%;background:var(--color-bg);border:2px solid var(--color-border)}
+    .tl-item.highlight::before{background:var(--color-accent2);border-color:var(--color-accent2)}
+    .tl-year{font-family:var(--font-heading);font-size:.82rem;color:var(--color-accent2);font-weight:700;display:block;margin-bottom:.1rem}
+    .tl-item p{font-size:.88rem;margin-bottom:0}
+    .split-section{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+    @media(max-width:900px){
+      .argument-grid{grid-template-columns:1fr}
+      .argument-item{border-right:none}
+      .argument-item:nth-last-child(-n+2){border-bottom:1px solid var(--color-border)}
+      .argument-item:last-child{border-bottom:none}
+      .wachstum-grid{grid-template-columns:1fr 1fr}
+      .preis-vergleich{grid-template-columns:1fr 1fr}
+      .sorten-liste{grid-template-columns:1fr 1fr}
+      .split-section{grid-template-columns:1fr;gap:2rem}
+    }
+    @media(max-width:640px){
+      .wachstum-grid{grid-template-columns:1fr}
+      .sorten-liste{grid-template-columns:1fr}
+      .nordschiebung-mobile{grid-template-columns:1fr !important}
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-main">
+      <a href="index.html" class="nav-logo">Weinbau · <span>Schleswig-Holstein</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="geschichte.html">Geschichte</a></li>
+        <li><a href="anbaugebiete.html">Rebsorten</a></li>
+        <li><a href="weingueter.html">Weingüter</a></li>
+        <li><a href="weine.html">Weine</a></li>
+        <li><a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Einführung">
+      <div class="hero-bg" role="img" aria-label="Weinberg in Norddeutschland"></div>
+      <div class="hero-content container">
+        <h1>Wein aus Schleswig-Holstein</h1>
+        <p class="hero-sub">
+          Von mittelalterlichen Klostergärten bis zu preisgekrönten PIWI-Weinen: Schleswig-Holstein ist Deutschlands nördlichstes Weinbaugebiet — mit Geschichte, 10 aktiven Weingütern und über 30 Hektar Rebfläche.
+        </p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="geschichte.html" class="btn btn-primary">Geschichte &amp; Hintergründe</a>
+          <a href="weingueter.html" class="btn btn-outline">Alle Weingüter</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span class="hero-stat-value">32 ha</span>
+            <span class="hero-stat-label">Bepflanzte Rebfläche</span>
+          </div>
+          <div>
+            <span class="hero-stat-value">26</span>
+            <span class="hero-stat-label">Betriebe mit Pflanzrechten</span>
+          </div>
+          <div>
+            <span class="hero-stat-value">+4 ha</span>
+            <span class="hero-stat-label">Wachstum pro Jahr</span>
+          </div>
+          <div>
+            <span class="hero-stat-value">2015</span>
+            <span class="hero-stat-label">Erste überreg. Auszeichnung</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 300 KM LEISTE -->
+    <section style="background:var(--color-accent);padding:3rem 1.5rem;">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:3rem;align-items:center;max-width:900px;">
+          <div style="text-align:center;">
+            <span style="font-family:var(--font-heading);font-size:3.8rem;color:var(--color-white);line-height:1;display:block;">300 km</span>
+            <span style="font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);">nach Norden seit 1970</span>
+          </div>
+          <div>
+            <p style="color:rgba(255,255,255,.9);font-size:1rem;line-height:1.7;margin-bottom:.5rem;">
+              Laut Deutschem Weininstitut hat sich die Weinbaugrenze in Deutschland seit den 1970er Jahren um rund 300 Kilometer nach Norden verschoben. Was heute in Schleswig-Holstein entsteht, ist kein Experiment — es ist der konsequente nächste Schritt einer Entwicklung, die seit 50 Jahren läuft.
+            </p>
+            <a href="wirtschaftlichkeit.html" style="font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.75);font-weight:500;">Zur Wirtschaftlichkeit →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REBSORTEN -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="section-header">
+          <span class="label">Rebsorten</span>
+          <h2>PIWIs: die Grundlage des nördlichen Weinbaus</h2>
+          <p style="max-width:620px;color:var(--color-muted);margin-top:.5rem;">
+            Pilzwiderstandsfähige Rebsorten sind keine Notlösung — sie sind eine eigenständige Weinbauphilosophie, die im Norden konsequenter umgesetzt wird als irgendwo sonst in Deutschland. Der Nebeneffekt: deutlich weniger Pflanzenschutzmittel, häufig Bio-zertifiziert.
+          </p>
+        </div>
+        <div class="sorten-liste">
+          <div class="sorte-item">
+            <div class="sorte-initial">So</div>
+            <div>
+              <h4>Solaris</h4>
+              <p>Wichtigste weiße Sorte in SH. Früh reifend, aromatisch, mit exotischer Frucht — Maracuja, Aprikose — und belebender Säure.</p>
+            </div>
+          </div>
+          <div class="sorte-item">
+            <div class="sorte-initial">Jo</div>
+            <div>
+              <h4>Johanniter</h4>
+              <p>Frisch, blumig, elegant. Auf Föhr und in der Holsteinischen Schweiz. Ergibt schlanke Weißweine mit Trinkfluss.</p>
+            </div>
+          </div>
+          <div class="sorte-item">
+            <div class="sorte-initial">Re</div>
+            <div>
+              <h4>Regent</h4>
+              <p>Wichtigste rote Sorte. Kräftige Farbe, rote Beeren, moderater Körper. Basis für Rosé und leichte Rotweine aus SH.</p>
+            </div>
+          </div>
+          <div class="sorte-item">
+            <div class="sorte-initial">CC</div>
+            <div>
+              <h4>Cabernet Cortis</h4>
+              <p>Dunkelfruchtig, für nordische Verhältnisse tanninreich. Gut für strukturiertere Rotweine — auf Deutsch-Nienhof und Wittenseer.</p>
+            </div>
+          </div>
+          <div class="sorte-item">
+            <div class="sorte-initial">SG</div>
+            <div>
+              <h4>Souvignier Gris</h4>
+              <p>Neuere Sorte, würzig-komplex, für Fassausbau geeignet. Lenz Roeloffs auf Föhr hat sich darauf spezialisiert.</p>
+            </div>
+          </div>
+          <div class="sorte-item">
+            <div class="sorte-initial">Fe</div>
+            <div>
+              <h4>Felicia</h4>
+              <p>Sehr frühreifend, leicht und frisch. Ergänzt Solaris in Cuvées und gibt dem Wein Eleganz und Leichtigkeit.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:2rem;padding:1.8rem 2rem;background:var(--color-white);border:1px solid var(--color-border);border-left:3px solid var(--color-accent2);border-radius:0 var(--radius) var(--radius) 0;max-width:780px;">
+          <p style="margin-bottom:0;font-size:.95rem;line-height:1.7;">
+            <strong>Was diese Weine im Glas bedeuten:</strong> Eiszeitliche Sandböden, Meeresluft und kühle Nächte ergeben Weine, die Weinkenner als <strong>mineralisch, frisch und trocken</strong> beschreiben — eine Eigenschaft, die man sonst eher von der Mosel oder dem Elsass kennt. Kein schwerer Südwein, kein süßlicher Fruchtbomb. Schlank, durchdringend, lebendig.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WACHSTUM -->
+    <section class="section">
+      <div class="container">
+        <div class="split-section">
+          <div>
+            <span class="label">Marktentwicklung</span>
+            <h2>Ein Markt, der wächst — und das aus gutem Grund</h2>
+            <p>Märkte auf wackligen Fundamenten wachsen nicht konstant. Der Weinbau in Schleswig-Holstein legt seit 2009 jedes Jahr drei bis fünf Hektar zu — nicht durch Subventionen, sondern weil sich neue Betriebe wirtschaftlich tragfähig aufstellen.</p>
+            <p>Hinzu kommt eine Professionalisierung der zweiten Generation: Lenz Roeloffs vom Weingut Waalem auf Föhr studierte Önologie in Geisenheim und gilt dort heute als Experte für PIWI-Sorten. Die Wittenseer Weinmanufaktur lässt ihre Trauben beim Weltklasse-Weingut Höfflin am Kaiserstuhl ausbauen — Qualitätssicherung ohne eigene Kellerei.</p>
+            <a href="weingueter.html" class="card-link" style="margin-top:.5rem;display:inline-flex;">Alle Weingüter →</a>
+          </div>
+          <div>
+            <div class="wachstum-grid">
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">10 <span>ha</span></span>
+                <p>Pflanzrechte beim Start 2009</p>
+              </div>
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">32 <span>ha</span></span>
+                <p>Bepflanzte Fläche heute</p>
+              </div>
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">49,6 <span>ha</span></span>
+                <p>Genehmigte Gesamtfläche</p>
+              </div>
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">26</span>
+                <p>Betriebe mit Pflanzrechten</p>
+              </div>
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">+4 <span>ha</span></span>
+                <p>Durchschn. Jahreswachstum</p>
+              </div>
+              <div class="wachstum-item">
+                <span class="wachstum-zahl">2015</span>
+                <p>Erste überregionale Auszeichnung</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREISSTRUKTUR -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="section-header">
+          <span class="label">Preisstruktur</span>
+          <h2>Was SH-Wein kostet — und warum</h2>
+          <p style="max-width:640px;color:var(--color-muted);margin-top:.5rem;">
+            Handgelesen, Kleinstmengen, Direktvertrieb. Das sind die drei Gründe warum ein Schleswig-Holsteinischer Wein 15 statt 8 Euro kostet — und dieselben Gründe, warum ein handwerklicher Rheingau-Wein auch nicht weniger kostet. Der Vergleich zeigt: die Preisstufe ist dieselbe.
+          </p>
+        </div>
+        <div class="preis-vergleich">
+          <div class="preis-item">
+            <span class="preis-produkt">SH-Weißwein</span>
+            <span class="preis-wert">12–22 €</span>
+            <p class="preis-kontext">Handarbeit, Kleinstmengen, Direktvertrieb. Mineralisch, frisch, trocken ausbaubar.</p>
+          </div>
+          <div class="preis-item">
+            <span class="preis-produkt">Rheingau Gutswein</span>
+            <span class="preis-wert">12–20 €</span>
+            <p class="preis-kontext">Etablierter Name, vergleichbare handwerkliche Struktur. Dieselbe Preisstufe.</p>
+          </div>
+          <div class="preis-item">
+            <span class="preis-produkt">Südtirol Weißwein</span>
+            <span class="preis-wert">15–35 €</span>
+            <p class="preis-kontext">Lage + Herkunftsimage + Knappheit. Dieselbe Preislogik — dort seit Jahrzehnten akzeptiert.</p>
+          </div>
+          <div class="preis-item">
+            <span class="preis-produkt">SH-Schaumwein (Sylt)</span>
+            <span class="preis-wert">ab 65 €</span>
+            <p class="preis-kontext">Söl'ring Extra Brut. Nördlichster Weinberg Deutschlands — vergleichbar einem Crémant d'Alsace der Premiumklasse.</p>
+          </div>
+        </div>
+        <a href="wirtschaftlichkeit.html" class="card-link" style="margin-top:1.5rem;display:inline-flex;">Vollständige Wirtschaftlichkeitsanalyse →</a>
+      </div>
+    </section>
+
+    <!-- GESCHICHTE KOMPAKT -->
+    <section class="section">
+      <div class="container">
+        <div class="split-section">
+          <div>
+            <span class="label">Geschichte</span>
+            <h2>Kein neues Phänomen — eine Rückkehr</h2>
+            <p>Weinbau in Schleswig-Holstein ist keine Erfindung des Klimawandels. Im Mittelalter wurde im gesamten norddeutschen Raum Wein angebaut — getrieben von der Kirchenversorgung mit Messwein. Hinweise auf Weinbau finden sich in Elmshorn, Itzehoe, Preetz und Gülzow.</p>
+            <p>Der Niedergang kam mit der Reformation: Klöster wurden aufgelöst, ohne institutionellen Träger verschwand der Weinbau. Was 2009 begann, ist keine Pioniertat — sondern eine Rückkehr auf bekanntes Terrain, mit besseren Werkzeugen.</p>
+            <a href="geschichte.html" class="card-link" style="margin-top:.5rem;display:inline-flex;">Vollständige Geschichte lesen →</a>
+          </div>
+          <div>
+            <div class="timeline-kompakt">
+              <div class="tl-item">
+                <span class="tl-year">Mittelalter</span>
+                <p>Klosterweingärten in ganz Norddeutschland. Weinbau als kirchliche Praxis, Messwein als Treiber.</p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-year">16. Jh.</span>
+                <p>Reformation. Klosterauflösungen beenden den organisierten Weinbau im Norden für Jahrhunderte.</p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-year">2002</span>
+                <p>Erste Versuchsreben auf Gut Deutsch-Nienhof — noch vor jeder offiziellen Genehmigung.</p>
+              </div>
+              <div class="tl-item highlight">
+                <span class="tl-year">2009</span>
+                <p>Rheinland-Pfalz tritt 10 ha Pflanzrechte ab. Offizieller Start. Erste Betriebe pflanzen am selben Tag.</p>
+              </div>
+              <div class="tl-item highlight">
+                <span class="tl-year">2015</span>
+                <p>Montigny-Weißwein belegt Platz 2 beim Landesweinbauinstitut Freiburg — bundesweite Aufmerksamkeit.</p>
+              </div>
+              <div class="tl-item highlight">
+                <span class="tl-year">2019–heute</span>
+                <p>Neue Betriebe, zweite Generation, 49,6 ha genehmigt. Der Markt professionalisiert sich sichtbar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-banner">
+      <h2>Machen Sie sich ein eigenes Bild</h2>
+      <p>Die beste Antwort auf alle Fragen ist eine Flasche. Alle Weingüter verkaufen direkt — viele bieten Führungen und Proben an.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="weingueter.html" class="btn btn-primary">Weingüter &amp; Bezugsquellen</a>
+        <a href="weine.html" class="btn btn-outline">Weine &amp; Preise</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Weinbau · <span>Schleswig-Holstein</span></div>
+        <p class="footer-desc">Eine sachliche Bestandsaufnahme des nördlichsten Weinbaus Deutschlands — für Weinkenner, Neugierige und alle, die sich ein eigenes Bild machen wollen.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer-Navigation">
+        <a href="geschichte.html">Geschichte</a>
+        <a href="anbaugebiete.html">Rebsorten</a>
+        <a href="weingueter.html">Weingüter</a>
+        <a href="weine.html">Weine</a>
+        <a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 weinbau-sh.de</span>
+      <span>Informationswebsite · kein kommerzielles Angebot</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+</body>
+</html>

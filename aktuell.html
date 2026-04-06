@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weinbau in Schleswig-Holstein – Aktuelle Entwicklungen</title>
+  <meta name="description" content="Der Weinbau in Schleswig-Holstein wächst: neue Betriebe, steigende Rebflächen, zweite Winzergeneration. Alle aktuellen Entwicklungen.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Weinbau in Schleswig-Holstein – Aktuelle Entwicklungen">
+  <meta property="og:locale" content="de_DE">
+  <link rel="canonical" href="https://weinbau-sh.de/aktuell.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    .page-hero{background:var(--color-accent);color:var(--color-white);padding:5rem 1.5rem 4rem}
+    .page-hero .container{max-width:var(--max-width);margin:0 auto}
+    .page-hero .label{color:rgba(255,255,255,.75)}
+    .page-hero h1{color:var(--color-white);margin-bottom:1rem}
+    .page-hero .lead{color:rgba(255,255,255,.78);max-width:640px}
+
+    .wachstum-chart{display:grid;gap:.5rem;margin:2rem 0}
+    .chart-row{display:grid;grid-template-columns:50px 1fr 60px;gap:.8rem;align-items:center;font-size:.85rem}
+    .chart-year{color:var(--color-muted);font-size:.78rem;text-align:right}
+    .chart-bar-wrap{background:var(--color-light);border-radius:2px;height:28px;overflow:hidden}
+    .chart-bar{height:100%;background:var(--color-accent);border-radius:2px;transition:width .6s ease;display:flex;align-items:center;padding-left:.6rem;min-width:2px}
+    .chart-bar span{color:#fff;font-size:.72rem;font-weight:500;white-space:nowrap}
+    .chart-val{font-family:var(--font-heading);font-size:.88rem;color:var(--color-accent2)}
+
+    .neue-betriebe{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:2rem 0}
+    .neuer-betrieb{background:var(--color-white);border:1px solid var(--color-border);border-radius:var(--radius);padding:1.8rem}
+    .neuer-betrieb .nb-year{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent2);font-weight:500;margin-bottom:.4rem;display:block}
+    .neuer-betrieb h3{font-size:1rem;margin-top:0;margin-bottom:.6rem;color:var(--color-accent)}
+    .neuer-betrieb p{font-size:.87rem;line-height:1.6;color:var(--color-text);margin-bottom:.8rem}
+    .neuer-betrieb .nb-tags{display:flex;gap:.4rem;flex-wrap:wrap}
+    .nb-tag{font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;padding:.2rem .55rem;border-radius:999px;background:var(--color-light);color:var(--color-muted);border:1px solid var(--color-border)}
+    .nb-tag-neu{background:#e8f4e8;color:#2d5a2d;border-color:#b5d8b5}
+
+    .profil-cards{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:2rem 0}
+    .profil-card{border:1px solid var(--color-border);border-radius:var(--radius);padding:1.8rem;background:var(--color-white)}
+    .profil-card h3{font-size:1rem;margin-top:0;margin-bottom:.5rem;color:var(--color-accent)}
+    .profil-card .pc-role{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent2);margin-bottom:.8rem;display:block}
+    .profil-card p{font-size:.87rem;line-height:1.6;color:var(--color-text);margin-bottom:0}
+
+    .nordschiebung{background:var(--color-light);border-radius:var(--radius);padding:2.5rem;margin:2rem 0;display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+    .nordschiebung-zahl{font-family:var(--font-heading);font-size:3.5rem;color:var(--color-accent);line-height:1;white-space:nowrap}
+    .nordschiebung-zahl span{display:block;font-size:.85rem;color:var(--color-accent2);font-family:var(--font-body);font-weight:400;margin-top:.3rem}
+    .nordschiebung p{font-size:.92rem;line-height:1.65;color:var(--color-text);margin-bottom:0}
+
+    @media(max-width:700px){
+      .neue-betriebe{grid-template-columns:1fr}
+      .profil-cards{grid-template-columns:1fr}
+      .nordschiebung{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-main">
+      <a href="index.html" class="nav-logo">Weinbau · <span>Schleswig-Holstein</span></a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="geschichte.html">Geschichte</a></li>
+        <li><a href="anbaugebiete.html">Rebsorten</a></li>
+        <li><a href="weingueter.html">Weingüter</a></li>
+        <li><a href="weine.html">Weine</a></li>
+        <li><a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <div class="container">
+      <h1>Ein Markt, der wächst</h1>
+      <p class="lead">Neue Betriebe, steigende Flächen, eine zweite Winzergeneration mit Fachausbildung — der Weinbau in Schleswig-Holstein professionalisiert sich sichtbar.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label">Flächenwachstum</span>
+        <h2>Jedes Jahr mehr Rebfläche</h2>
+        <p style="max-width:620px;color:var(--color-muted);">Das Wachstum ist konstant und organisch — kein Boom, keine Subventionen, sondern neue Betriebe die wirtschaftlich überzeugt sind.</p>
+      </div>
+
+      <div class="wachstum-chart" aria-label="Jährliches Flächenwachstum Schleswig-Holstein">
+        <div class="chart-row"><span class="chart-year">2019</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:93%"><span>+4,53 ha</span></div></div><span class="chart-val">4,53</span></div>
+        <div class="chart-row"><span class="chart-year">2020</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:43%"><span>+2,11 ha</span></div></div><span class="chart-val">2,11</span></div>
+        <div class="chart-row"><span class="chart-year">2021</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:88%"><span>+4,30 ha</span></div></div><span class="chart-val">4,30</span></div>
+        <div class="chart-row"><span class="chart-year">2022</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:90%"><span>+4,38 ha</span></div></div><span class="chart-val">4,38</span></div>
+        <div class="chart-row"><span class="chart-year">2023</span><div class="chart-bar-wrap"><div class="chart-bar" style="width:75%"><span>+3,67 ha</span></div></div><span class="chart-val">3,67</span></div>
+      </div>
+      <p style="font-size:.78rem;color:var(--color-muted);margin-top:.5rem;">Quelle: Wikipedia / Bundesanstalt für Landwirtschaft und Ernährung · Neugenehmigungen pro Jahr in Hektar</p>
+
+      <div style="margin-top:4rem;" class="section-header">
+        <span class="label">Neue Betriebe</span>
+        <h2>Jüngste Gründungen</h2>
+      </div>
+
+      <div class="neue-betriebe">
+        <div class="neuer-betrieb">
+          <span class="nb-year">Gegründet 2019</span>
+          <h3>Wittenseer Weinmanufaktur</h3>
+          <p>Auf dem Hof Hoheluft in Groß Wittensee entstand 2019 das jüngste Weingut der Region. Biozertifiziert, Sorten Solaris und Cabernet Cortis. Die erste Ernte wurde 2023 eingebracht. Das Besondere: der Ausbau erfolgt in Kooperation mit Matthias Höfflin in Bötzingen am Kaiserstuhl — einem Weingut, das im Eichelmann und Falstaff 2025 als Weltklasse geführt wird. Verkauf im lokalen Handel.</p>
+          <div class="nb-tags">
+            <span class="nb-tag nb-neu">Neu</span>
+            <span class="nb-tag">Bio</span>
+            <span class="nb-tag">Fremdausbau</span>
+            <span class="nb-tag">Groß Wittensee</span>
+          </div>
+        </div>
+        <div class="neuer-betrieb">
+          <span class="nb-year">Erste Ernte 2020</span>
+          <h3>Schatoh Feldmark</h3>
+          <p>Das Weingut im Kreis Stormarn bei Bargteheide bewirtschaftet seine Reben auf natürlicher Basis seit 2017. Drei weiße Sorten, erste Weine ab 2020 vermarktet. Ein Beispiel dafür, dass sich Weinbau in SH nicht auf die bekannten Lagen beschränkt — auch die Hamburger Randregion kommt hinzu.</p>
+          <div class="nb-tags">
+            <span class="nb-tag">Stormarn</span>
+            <span class="nb-tag">Naturnaher Anbau</span>
+            <span class="nb-tag">Weißwein</span>
+          </div>
+        </div>
+        <div class="neuer-betrieb">
+          <span class="nb-year">Erste Reben 2024</span>
+          <h3>Amrum — neuste Weinlage Deutschlands</h3>
+          <p>Auf der Nordseeinsel Amrum wurden 2024 die ersten Rebstöcke gepflanzt — damit ist die Anbaufläche in SH erneut um eine Insel gewachsen. Details zu Betrieb und Sorten noch nicht öffentlich. Amrum liegt auf demselben Breitengrad wie Föhr und Sylt.</p>
+          <div class="nb-tags">
+            <span class="nb-tag nb-neu">Ganz neu</span>
+            <span class="nb-tag">Nordsee</span>
+            <span class="nb-tag">Amrum</span>
+          </div>
+        </div>
+        <div class="neuer-betrieb">
+          <span class="nb-year">Seit 2009 · wächst weiter</span>
+          <h3>Weingut Ingenhof — Größenerweiterung</h3>
+          <p>Melanie Engel hat den Ingenhof in Malente von ursprünglich 3 ha (beim Start 2009) auf heute 7,8 ha ausgebaut. Damit ist es das flächenmäßig größte Weingut Schleswig-Holsteins. Der Hof kombiniert Wein, Erdbeeren, Ferienwohnungen und Hofcafé — ein Modell, das zeigt wie Weintourismus im Norden aussieht.</p>
+          <div class="nb-tags">
+            <span class="nb-tag">Malente</span>
+            <span class="nb-tag">7,8 ha</span>
+            <span class="nb-tag">Größtes Weingut SH</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:4rem;" class="section-header">
+        <span class="label">Zweite Generation</span>
+        <h2>Professionalisierung von innen</h2>
+        <p style="max-width:620px;color:var(--color-muted);">Die zweite Winzergeneration bringt Fachausbildung aus klassischen Weinregionen mit — und wendet sie im Norden an.</p>
+      </div>
+
+      <div class="profil-cards">
+        <div class="profil-card">
+          <h3>Lenz Roeloffs</h3>
+          <span class="pc-role">Weingut Waalem, Föhr · Önologie Geisenheim</span>
+          <p>Sohn des Gründers Christian Roeloffs. Studierte Önologie an der Hochschule Geisenheim — Deutschlands führender Weinbau-Hochschule. Gilt dort heute als Experte für PIWI-Sorten. Als er Kommilitonen und Dozenten Flaschen vom Waalem öffnet, „winkt keiner mehr ab". Erweiterte das Sortiment um Souvignier Gris, Pinotin und Hibernal. Der Waalem Réserve 2022 gilt als komplexester Wein aus SH.</p>
+        </div>
+        <div class="profil-card">
+          <h3>Wittenseer Weinmanufaktur &amp; Matthias Höfflin</h3>
+          <span class="pc-role">Kooperationsmodell · Anbau SH / Ausbau Kaiserstuhl</span>
+          <p>Ein neues Modell für kleine Betriebe: Trauben in SH anbauen, Ausbau durch einen etablierten Spitzenbetrieb. Höfflin in Bötzingen am Kaiserstuhl wurde 2025 im Eichelmann als Weltklasse-Weingut ausgezeichnet. Das Ergebnis — der Nordic Rebelution 2024 — ist bio-zertifiziert und zeigt, dass Qualitätssicherung auch ohne eigene Kellerei möglich ist.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:4rem;">
+        <span class="label">Kontext</span>
+        <h2>Die 300-Kilometer-Verschiebung</h2>
+      </div>
+
+      <div class="nordschiebung">
+        <div>
+          <div class="nordschiebung-zahl">300 km<span>nach Norden seit 1970</span></div>
+        </div>
+        <div>
+          <p>Laut Deutschem Weininstitut hat sich die nördliche Grenze des Weinbaus in Deutschland seit den 1970er Jahren um rund 300 Kilometer nach Norden verschoben. Sachsen und Saale-Unstrut galten als nördlichste Regionen — heute werden dort international anerkannte Weine produziert. Brandenburg, Niedersachsen und Mecklenburg-Vorpommern folgten. Schleswig-Holstein ist der konsequente nächste Schritt in dieser Entwicklung.</p>
+          <p style="margin-top:.8rem;margin-bottom:0;">Die Ursache ist nicht allein der Klimawandel — auch die Entwicklung geeigneter Rebsorten (PIWIs) hat dazu beigetragen, dass Weinbau in Regionen möglich wird, die vor 50 Jahren als ungeeignet galten. Beide Faktoren verstärken sich gegenseitig.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <h2>Die Geschichte dahinter</h2>
+    <p>Wie alles begann — von den Klostergärten des Mittelalters bis zum Neustart 2009.</p>
+    <a href="geschichte.html" class="btn btn-primary">Zur Geschichte</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Weinbau · <span>Schleswig-Holstein</span></div>
+        <p class="footer-desc">Eine sachliche Bestandsaufnahme des nördlichsten Weinbaus Deutschlands.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer-Navigation">
+        <a href="geschichte.html">Geschichte</a>
+        <a href="anbaugebiete.html">Rebsorten</a>
+        <a href="weingueter.html">Weingüter</a>
+        <a href="weine.html">Weine</a>
+        <a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 weinbau-sh.de</span>
+      <span>Informationswebsite · kein kommerzielles Angebot</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+</body>
+</html>
