@@ -8,8 +8,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 11.00,
-    "anmerkung": "Falstaff 90 Pkt. (Jhg. 2023)"
+    "preis_eur": 11.0,
+    "anmerkung": "Falstaff 90 Pkt. (Jhg. 2023)",
+    "shop_url": "https://ingenhof.de/products/solaris-2023-trocken"
   },
   {
     "id": "ingenhof-solaris-2023-halbtrocken",
@@ -20,8 +21,9 @@
     "typ": "Weißwein",
     "ausbau": "halbtrocken",
     "jahrgang": 2023,
-    "preis_eur": 11.00,
-    "anmerkung": "Falstaff prämiert"
+    "preis_eur": 11.0,
+    "anmerkung": "Falstaff prämiert",
+    "shop_url": "https://ingenhof.de/products/solaris-2023-halbtrocken"
   },
   {
     "id": "ingenhof-solaris-2024-feinfruchtig",
@@ -32,8 +34,9 @@
     "typ": "Weißwein",
     "ausbau": "lieblich",
     "jahrgang": 2024,
-    "preis_eur": 13.50,
-    "anmerkung": ""
+    "preis_eur": 13.5,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/solaris-2024-feinfruchtig"
   },
   {
     "id": "ingenhof-sauvitage-2022-trocken",
@@ -44,8 +47,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2022,
-    "preis_eur": 11.00,
-    "anmerkung": "PIWI-Neuzüchtung, ähnl. Sauvignon Blanc"
+    "preis_eur": 11.0,
+    "anmerkung": "PIWI-Neuzüchtung, ähnl. Sauvignon Blanc",
+    "shop_url": "https://ingenhof.de/products/sauvitage-2022-trocken"
   },
   {
     "id": "ingenhof-sauvitage-2023-halbtrocken",
@@ -56,8 +60,9 @@
     "typ": "Weißwein",
     "ausbau": "halbtrocken",
     "jahrgang": 2023,
-    "preis_eur": 11.00,
-    "anmerkung": ""
+    "preis_eur": 11.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/sauvitage-2023-halbtrocken"
   },
   {
     "id": "ingenhof-souvignier-gris-2022",
@@ -68,44 +73,48 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2022,
-    "preis_eur": 13.50,
-    "anmerkung": "Norddeutsche Antwort auf Grauburgunder"
+    "preis_eur": 13.5,
+    "anmerkung": "Norddeutsche Antwort auf Grauburgunder",
+    "shop_url": "https://ingenhof.de/products/souvignier-gris-2022-trocken"
   },
   {
-    "id": "ingenhof-muscaris-trocken",
-    "name": "Muscaris trocken",
+    "id": "ingenhof-muscaris-2024-halbtrocken",
+    "name": "Muscaris 2024 halbtrocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Muscaris",
     "typ": "Weißwein",
-    "ausbau": "trocken",
-    "jahrgang": null,
-    "preis_eur": 13.50,
-    "anmerkung": "Aromatisch, Muskat-Noten"
+    "ausbau": "halbtrocken",
+    "jahrgang": 2024,
+    "preis_eur": 14.5,
+    "anmerkung": "Aromatisch, Muskat-Noten",
+    "shop_url": "https://ingenhof.de/products/solaris-2023-halbtrocken-kopie"
   },
   {
-    "id": "ingenhof-secco-weiss",
-    "name": "Secco weiß",
+    "id": "ingenhof-secco-weiss-2023",
+    "name": "Secco 2023 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Weißwein Cuvée",
     "typ": "Perlwein",
     "ausbau": "trocken",
-    "jahrgang": null,
-    "preis_eur": 11.00,
-    "anmerkung": ""
+    "jahrgang": 2023,
+    "preis_eur": 11.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/secco-2023-trocken"
   },
   {
-    "id": "ingenhof-secco-rose",
-    "name": "Secco Rosé",
+    "id": "ingenhof-secco-rose-2023",
+    "name": "Secco Rosé 2023 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Regent",
     "typ": "Perlwein",
     "ausbau": "trocken",
-    "jahrgang": null,
-    "preis_eur": 11.00,
-    "anmerkung": ""
+    "jahrgang": 2023,
+    "preis_eur": 11.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/secco-rose-2023-trocken"
   },
   {
     "id": "ingenhof-rose-2023-trocken",
@@ -116,8 +125,9 @@
     "typ": "Rosé",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 11.00,
-    "anmerkung": ""
+    "preis_eur": 11.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/rose-2023-trocken"
   },
   {
     "id": "ingenhof-rose-2023-halbtrocken",
@@ -128,8 +138,9 @@
     "typ": "Rosé",
     "ausbau": "halbtrocken",
     "jahrgang": 2023,
-    "preis_eur": 11.00,
-    "anmerkung": ""
+    "preis_eur": 11.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/rose-2023-halbtrocken"
   },
   {
     "id": "ingenhof-blanc-de-noir-2023",
@@ -140,20 +151,22 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 12.50,
-    "anmerkung": "Weiß aus roten Trauben"
+    "preis_eur": 12.5,
+    "anmerkung": "Weiß aus roten Trauben",
+    "shop_url": "https://ingenhof.de/products/blanc-de-noir-2023-trocken"
   },
   {
-    "id": "ingenhof-regent-halbtrocken",
-    "name": "Regent halbtrocken",
+    "id": "ingenhof-regent-2020-halbtrocken",
+    "name": "Regent 2020 halbtrocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Regent",
     "typ": "Rotwein",
     "ausbau": "halbtrocken",
-    "jahrgang": null,
-    "preis_eur": 12.00,
-    "anmerkung": ""
+    "jahrgang": 2020,
+    "preis_eur": 12.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/regent-2020-halbtrocken"
   },
   {
     "id": "ingenhof-cabernet-cantor-2022",
@@ -164,8 +177,9 @@
     "typ": "Rotwein",
     "ausbau": "trocken",
     "jahrgang": 2022,
-    "preis_eur": 14.00,
-    "anmerkung": "Ähnlich Merlot"
+    "preis_eur": 14.0,
+    "anmerkung": "Ähnlich Merlot",
+    "shop_url": "https://ingenhof.de/products/cabernet-cantor-2022-trocken"
   },
   {
     "id": "ingenhof-cabernet-cantor-2023-halbtrocken",
@@ -176,8 +190,22 @@
     "typ": "Rotwein",
     "ausbau": "halbtrocken",
     "jahrgang": 2023,
-    "preis_eur": 14.00,
-    "anmerkung": ""
+    "preis_eur": 15.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/cabernet-cantor-2023-halbtrocken"
+  },
+  {
+    "id": "ingenhof-sauvitage-barrique-2022",
+    "name": "Sauvitage Barrique 2022 trocken",
+    "weingut_id": "ingenhof",
+    "weingut_name": "Ingenhof",
+    "sorte": "Sauvitage",
+    "typ": "Weißwein",
+    "ausbau": "trocken, Barrique",
+    "jahrgang": 2022,
+    "preis_eur": 19.0,
+    "anmerkung": "",
+    "shop_url": "https://ingenhof.de/products/sauvitage-barrique-2022-trocken"
   },
   {
     "id": "ingenhof-cabernet-cantor-barrique-2021",
@@ -188,44 +216,48 @@
     "typ": "Rotwein",
     "ausbau": "trocken, Barrique",
     "jahrgang": 2021,
-    "preis_eur": 19.00,
-    "anmerkung": "Vanille- & Röstaromen"
+    "preis_eur": 19.0,
+    "anmerkung": "Vanille- & Röstaromen",
+    "shop_url": "https://ingenhof.de/products/cabernet-cantor-barrique-2021-trocken"
   },
   {
     "id": "waalem-fering-dringer",
     "name": "Fering Dringer",
     "weingut_id": "waalem",
     "weingut_name": "Waalem",
-    "sorte": "Cuvée",
+    "sorte": "Cuvée (Huxelrebe, Johanniter, Müller-Thurgau u.a.)",
     "typ": "Weißwein",
     "ausbau": "trocken",
-    "jahrgang": null,
+    "jahrgang": 2024,
     "preis_eur": 13.95,
-    "anmerkung": "Einstiegswein"
+    "anmerkung": "Limette, Minze, Orangenzeste. Trauben teils aus Föhr, teils Rheinhessen.",
+    "shop_url": "https://www.waalem.de/products/fering-dringer-by-waalem"
   },
   {
     "id": "waalem-fering-foomen",
     "name": "Fering Foomen",
     "weingut_id": "waalem",
     "weingut_name": "Waalem",
-    "sorte": "Rosé",
+    "sorte": "Cuvée (Pinotin, Spätburgunder, Cabernet Sauvignon u.a.)",
     "typ": "Rosé",
     "ausbau": "trocken",
-    "jahrgang": null,
+    "jahrgang": 2024,
     "preis_eur": 14.95,
-    "anmerkung": ""
+    "anmerkung": "Hibiskus, Blutorange, Basilikum. Trauben teils aus Föhr, teils Rheinhessen.",
+    "shop_url": "https://www.waalem.de/products/fering-foomen-by-waalem"
   },
   {
     "id": "waalem-kul",
     "name": "Waalem Kul",
     "weingut_id": "waalem",
     "weingut_name": "Waalem",
-    "sorte": "Weißwein",
+    "sorte": "Cuvée (Johanniter, Solaris, Souvignier Gris, Hibernal)",
     "typ": "Weißwein",
     "ausbau": "trocken",
-    "jahrgang": null,
+    "jahrgang": 2024,
     "preis_eur": 17.95,
-    "anmerkung": ""
+    "anmerkung": "Honigmelone, Passionsfrucht, Grapefruit. Nur Föhrer Trauben.",
+    "shop_url": "https://www.waalem.de/products/waalem-kul"
   },
   {
     "id": "waalem-reserve",
@@ -235,21 +267,23 @@
     "sorte": "Solaris",
     "typ": "Weißwein",
     "ausbau": "trocken, Eichenfass",
-    "jahrgang": null,
+    "jahrgang": 2023,
     "preis_eur": 23.95,
-    "anmerkung": "4 Monate auf der Hefe"
+    "anmerkung": "100% Solaris, Barrique, 4 Monate auf der Hefe. 13 Vol.-%. Nur Föhrer Trauben.",
+    "shop_url": "https://www.waalem.de/products/waalem-reserve"
   },
   {
     "id": "waalem-brut",
     "name": "Waalem Brut",
     "weingut_id": "waalem",
     "weingut_name": "Waalem",
-    "sorte": "Sekt",
+    "sorte": "Johanniter",
     "typ": "Schaumwein",
     "ausbau": "extra brut",
-    "jahrgang": null,
+    "jahrgang": 2023,
     "preis_eur": 33.95,
-    "anmerkung": "Flaschengärung"
+    "anmerkung": "100% Johanniter, Flaschengärung. Nur Föhrer Trauben.",
+    "shop_url": "https://www.waalem.de/products/waalem-brut"
   },
   {
     "id": "montigny-weisswein",
@@ -258,22 +292,24 @@
     "weingut_name": "SJ Montigny",
     "sorte": "Solaris",
     "typ": "Weißwein",
-    "ausbau": "trocken",
-    "jahrgang": null,
-    "preis_eur": 15.00,
-    "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe"
+    "ausbau": "feinherb",
+    "jahrgang": 2024,
+    "preis_eur": 15.99,
+    "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe",
+    "shop_url": "https://www.schneekloth.de/weisswein-feinherb-montigny-so-mookt-wi-dat-bio-vegan-0-75l/542338"
   },
   {
-    "id": "montigny-rose",
-    "name": "So mookt wi dat – Rosé",
+    "id": "montigny-rotling",
+    "name": "So mookt wi dat – Rotling",
     "weingut_id": "montigny",
     "weingut_name": "SJ Montigny",
     "sorte": "Regent",
     "typ": "Rosé",
-    "ausbau": "trocken",
-    "jahrgang": null,
-    "preis_eur": 15.00,
-    "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe"
+    "ausbau": "feinherb",
+    "jahrgang": 2025,
+    "preis_eur": 15.99,
+    "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe",
+    "shop_url": "https://www.schneekloth.de/rosewein-feinherb-montigny-so-mookt-wi-dat-bio-vegan-0-75l/542339"
   },
   {
     "id": "montigny-nord-sued",
@@ -284,8 +320,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": null,
-    "preis_eur": 15.00,
-    "anmerkung": "Exklusiv für CITTI Märkte"
+    "preis_eur": null,
+    "anmerkung": "Exklusiv CITTI Märkte, Verfügbarkeit variiert",
+    "shop_url": "https://www.schneekloth.de/weine/s.j.-montigny/"
   },
   {
     "id": "montigny-sekt",
@@ -297,7 +334,8 @@
     "ausbau": "brut",
     "jahrgang": null,
     "preis_eur": null,
-    "anmerkung": "Gelegentlich im Sortiment"
+    "anmerkung": "Gelegentlich im Sortiment",
+    "shop_url": "https://www.schneekloth.de/weine/s.j.-montigny/"
   },
   {
     "id": "deutsch-nienhof-solaris",
@@ -308,8 +346,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": null,
-    "preis_eur": 12.00,
-    "anmerkung": "Bio / Naturland"
+    "preis_eur": 12.0,
+    "anmerkung": "Bio / Naturland",
+    "shop_url": "https://deutsch-nienhof.de"
   },
   {
     "id": "deutsch-nienhof-rose",
@@ -320,8 +359,9 @@
     "typ": "Rosé",
     "ausbau": "trocken",
     "jahrgang": null,
-    "preis_eur": 12.00,
-    "anmerkung": "Bio / Naturland"
+    "preis_eur": 12.0,
+    "anmerkung": "Bio / Naturland",
+    "shop_url": "https://deutsch-nienhof.de"
   },
   {
     "id": "deutsch-nienhof-sekt",
@@ -332,8 +372,22 @@
     "typ": "Schaumwein",
     "ausbau": "brut, Flaschengärung",
     "jahrgang": null,
-    "preis_eur": 24.00,
-    "anmerkung": "Bio / Naturland"
+    "preis_eur": 24.0,
+    "anmerkung": "Bio / Naturland",
+    "shop_url": "https://deutsch-nienhof.de"
+  },
+  {
+    "id": "deutsch-nienhof-schaumwein",
+    "name": "KROON 54°15' Schaumwein",
+    "weingut_id": "deutsch-nienhof",
+    "weingut_name": "Deutsch-Nienhof",
+    "sorte": "Solaris",
+    "typ": "Schaumwein",
+    "ausbau": "brut",
+    "jahrgang": null,
+    "preis_eur": null,
+    "anmerkung": "Bio / Naturland, weiß",
+    "shop_url": "https://deutsch-nienhof.de"
   },
   {
     "id": "balthasar-ress-sekt",
@@ -344,8 +398,9 @@
     "typ": "Schaumwein",
     "ausbau": "extra brut, Flaschengärung",
     "jahrgang": null,
-    "preis_eur": 65.00,
-    "anmerkung": "Sehr limitiert, VDP-Weingut"
+    "preis_eur": 65.0,
+    "anmerkung": "Sehr limitiert, VDP-Weingut",
+    "shop_url": "https://shop.balthasar-ress.de/Soel-ring-Solaris-Sekt-extra-brut-aus-Sylt/17019-NV-M-EU"
   },
   {
     "id": "soelviin-2024",
@@ -356,8 +411,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2024,
-    "preis_eur": 36.00,
-    "anmerkung": "Sehr limitiert"
+    "preis_eur": 36.0,
+    "anmerkung": "Sehr limitiert",
+    "shop_url": "https://jm-weinshop.de/collections/selektion-jorg-muller/products/sylterwein"
   },
   {
     "id": "schatoh-original-2023",
@@ -368,20 +424,22 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 15.00,
-    "anmerkung": "Flaggschiff-Wein"
+    "preis_eur": 15.0,
+    "anmerkung": "Flaggschiff-Wein",
+    "shop_url": "https://www.schatoh-feldmark.de/shop"
   },
   {
     "id": "schatoh-nord-2023",
-    "name": "2023 NORD trocken",
+    "name": "2023 NØRD trocken",
     "weingut_id": "schatoh-feldmark",
     "weingut_name": "Schatoh Feldmark",
     "sorte": "PIWI-Cuvée",
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 15.00,
-    "anmerkung": ""
+    "preis_eur": 15.0,
+    "anmerkung": "",
+    "shop_url": "https://www.schatoh-feldmark.de/shop"
   },
   {
     "id": "schatoh-drei-trauben-trocken-2023",
@@ -392,8 +450,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 15.00,
-    "anmerkung": ""
+    "preis_eur": 15.0,
+    "anmerkung": "",
+    "shop_url": "https://www.schatoh-feldmark.de/shop"
   },
   {
     "id": "schatoh-drei-trauben-feinherb-2023",
@@ -404,8 +463,9 @@
     "typ": "Weißwein",
     "ausbau": "feinherb",
     "jahrgang": 2023,
-    "preis_eur": 15.00,
-    "anmerkung": ""
+    "preis_eur": 15.0,
+    "anmerkung": "",
+    "shop_url": "https://www.schatoh-feldmark.de/shop"
   },
   {
     "id": "schatoh-sieben-eichen-2023",
@@ -416,8 +476,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken, Barrique",
     "jahrgang": 2023,
-    "preis_eur": 20.00,
-    "anmerkung": "Falstaff 91+ Pkt. (Jhg. 2022)"
+    "preis_eur": 20.0,
+    "anmerkung": "Falstaff 91+ Pkt. (Jhg. 2022)",
+    "shop_url": "https://www.schatoh-feldmark.de/shop"
   },
   {
     "id": "eckhof-2022-cuvee",
@@ -428,8 +489,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2022,
-    "preis_eur": 14.00,
-    "anmerkung": "11,5 Vol.-%, saftig & frisch"
+    "preis_eur": 14.0,
+    "anmerkung": "11,5 Vol.-%, saftig & frisch",
+    "shop_url": "https://www.gut-eckhof.de/product/2022-eckhof---einer-von-hier-cuvee-trocken-so-rr-rioky"
   },
   {
     "id": "eckhof-2021-cuvee",
@@ -440,8 +502,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2021,
-    "preis_eur": 15.00,
-    "anmerkung": "14 Vol.-%, vollmundig & fruchtig"
+    "preis_eur": 15.0,
+    "anmerkung": "14 Vol.-%, vollmundig & fruchtig",
+    "shop_url": "https://www.gut-eckhof.de/product/2021-eckhof---einer-von-hier-cuvee-trocken-so-rr-9wlil"
   },
   {
     "id": "eckhof-2023-cuvee-l02",
@@ -452,8 +515,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 15.00,
-    "anmerkung": "12,5 Vol.-%, finessenreich"
+    "preis_eur": 15.0,
+    "anmerkung": "12,5 Vol.-%, finessenreich",
+    "shop_url": "https://www.gut-eckhof.de/product/2023-eckhof---einer-von-hier-cuvee-trocken-l02-so-rr"
   },
   {
     "id": "eckhof-2023-cuvee-l01",
@@ -464,8 +528,9 @@
     "typ": "Weißwein",
     "ausbau": "trocken",
     "jahrgang": 2023,
-    "preis_eur": 17.50,
-    "anmerkung": "13 Vol.-%, mineralisch & fruchtig"
+    "preis_eur": 17.5,
+    "anmerkung": "13 Vol.-%, mineralisch & fruchtig",
+    "shop_url": "https://www.gut-eckhof.de/product/gut-eckhof-riesel"
   },
   {
     "id": "eckhof-cabaret-noir",
@@ -477,7 +542,8 @@
     "ausbau": "trocken, Eichenfass",
     "jahrgang": null,
     "preis_eur": null,
-    "anmerkung": "Auf 342 Flaschen limitiert"
+    "anmerkung": "Auf 342 Flaschen limitiert",
+    "shop_url": "https://www.gut-eckhof.de/weine-schleswig-holstein"
   },
   {
     "id": "fjordwein-weisswein",
@@ -489,7 +555,8 @@
     "ausbau": "feinherb / trocken",
     "jahrgang": null,
     "preis_eur": null,
-    "anmerkung": "Neuer Jahrgang ab Mai 2026"
+    "anmerkung": "Neuer Jahrgang ab Mai 2026",
+    "shop_url": "kontakt.html"
   },
   {
     "id": "fjordwein-perlwein",
@@ -501,6 +568,7 @@
     "ausbau": "",
     "jahrgang": null,
     "preis_eur": null,
-    "anmerkung": "Sortiment im Aufbau"
+    "anmerkung": "Sortiment im Aufbau",
+    "shop_url": "kontakt.html"
   }
 ]

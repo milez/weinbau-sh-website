@@ -225,7 +225,7 @@ p { margin-bottom: 1.1rem; }
       rgba(43, 54, 38, 0.25) 0%,
       rgba(43, 54, 38, 0.72) 70%,
       rgba(26, 26, 24, 0.92) 100%),
-      url('../img/hero.jpg');
+      url('../img/hero.png');
   background-size: cover;
   background-position: center 40%;
   transform: scale(1.03);

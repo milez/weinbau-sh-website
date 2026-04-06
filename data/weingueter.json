@@ -6,11 +6,23 @@
     "region": "Holsteinische Schweiz",
     "gruendung": 2009,
     "flaeche_ha": 8,
-    "sorten": ["Solaris", "Sauvitage", "Souvignier Gris", "Muscaris", "Regent", "Cabernet Cantor", "Cabernet Cortis"],
+    "sorten": [
+      "Solaris",
+      "Sauvitage",
+      "Souvignier Gris",
+      "Muscaris",
+      "Regent",
+      "Cabernet Cantor",
+      "Cabernet Cortis"
+    ],
     "vinifikation": "Eigen",
     "bio": false,
     "besonderheiten": "Größtes Weingut in SH. Familienbetrieb Engel-Thiedemann. Südhang Gröndahlberg, 35° Neigung. AWC Vienna prämiert. Vegane Produktion.",
-    "bezugsquellen": ["Weinremise/Feldcafé vor Ort", "Online-Shop: ingenhof.de", "Regionaler Handel"],
+    "bezugsquellen": [
+      "Weinremise/Feldcafé vor Ort",
+      "Online-Shop: ingenhof.de",
+      "Regionaler Handel"
+    ],
     "website": "https://ingenhof.de",
     "beschreibung": "Größtes Weingut Schleswig-Holsteins, eingebettet in die Holsteinische Schweiz."
   },
@@ -21,13 +33,49 @@
     "region": "Nordfriesland",
     "gruendung": 2009,
     "flaeche_ha": 6,
-    "sorten": ["Solaris", "Johanniter", "Hibernal", "Souvignier Gris", "Pinotin"],
+    "sorten": [
+      "Solaris",
+      "Johanniter",
+      "Hibernal",
+      "Souvignier Gris",
+      "Pinotin"
+    ],
     "vinifikation": "Eigen",
     "bio": false,
     "besonderheiten": "Weinbau mitten im UNESCO-Weltnaturerbe Wattenmeer. Betrieben von Christian & Lenz Roeloffs. Auch Destillerie (Weinbrand, Tresterbrand). Restaurant & Hofladen.",
-    "bezugsquellen": ["Hofladen Waalem, Föhr", "Online-Shop: waalem.de", "CITTI Märkte", "Föhrschenken.de", "Weinhaus-am-Meer"],
+    "bezugsquellen": [
+      "Hofladen Waalem, Föhr",
+      "Online-Shop: waalem.de",
+      "CITTI Märkte",
+      "Föhrschenken.de",
+      "Weinhaus-am-Meer"
+    ],
     "website": "https://waalem.de",
     "beschreibung": "Familienweingut auf Föhr im UNESCO-Weltnaturerbe Wattenmeer. Ausschließlich PIWI-Sorten."
+  },
+  {
+    "id": "fjordwein",
+    "name": "Fjordwein – Weingut Jensen",
+    "ort": "Dollerup bei Flensburg",
+    "region": "Flensburg",
+    "gruendung": null,
+    "flaeche_ha": 3,
+    "sorten": [
+      "Solaris",
+      "Johanniter",
+      "Muscaris",
+      "Hibernal",
+      "Souvignier Gris",
+      "Pinotin"
+    ],
+    "vinifikation": "Eigen",
+    "bio": false,
+    "besonderheiten": "",
+    "bezugsquellen": [
+      "Ab Hof"
+    ],
+    "website": "https://fjordwein.com",
+    "beschreibung": "Junges Weingut bei Flensburg, Sortiment im Aufbau."
   },
   {
     "id": "montigny",
@@ -36,11 +84,20 @@
     "region": "Holsteinische Schweiz",
     "gruendung": 2009,
     "flaeche_ha": 2,
-    "sorten": ["Solaris", "Felicia", "Regent"],
+    "sorten": [
+      "Solaris",
+      "Felicia",
+      "Regent"
+    ],
     "vinifikation": "Fremd: Nahe, Stammgut von S.J. Montigny",
     "bio": true,
     "besonderheiten": "Betrieben vom Nahe-Winzer Steffen James Montigny. Initiiert von Dr. Hermann Langness. Biologischer Anbau seit 2019. Trauben werden an der Nahe gekeltert. Ca. 8.500 Rebstöcke.",
-    "bezugsquellen": ["CITTI Märkte (Kiel, Lübeck, Flensburg)", "Famila / Markant (via Schneekloth)", "Weingut-Shop: sjmontigny.de", "Edeka Hamburg"],
+    "bezugsquellen": [
+      "CITTI Märkte (Kiel, Lübeck, Flensburg)",
+      "Famila / Markant (via Schneekloth)",
+      "Weingut-Shop: sjmontigny.de",
+      "Edeka Hamburg"
+    ],
     "website": "https://sjmontigny.de",
     "beschreibung": "Nahe-Winzer mit Weinberg in der Holsteinischen Schweiz. Kelterung an der Nahe."
   },
@@ -51,58 +108,21 @@
     "region": "Rendsburg-Eckernförde",
     "gruendung": 2002,
     "flaeche_ha": 2,
-    "sorten": ["Solaris", "Rondo", "Cabernet Cortis"],
+    "sorten": [
+      "Solaris",
+      "Rondo",
+      "Cabernet Cortis"
+    ],
     "vinifikation": "",
     "bio": true,
     "besonderheiten": "Ältestes & nördlichstes Bio-Weingut Deutschlands. Naturland-zertifiziert. Familie von Hedemann-Heespen. Schafe grasen im Weinberg. Auch Hofcafé, Ferienwohnungen, Forstwirtschaft.",
-    "bezugsquellen": ["Hofladen/Hofcafé vor Ort", "Online-Shop: deutsch-nienhof.de", "CITTI Märkte"],
+    "bezugsquellen": [
+      "Hofladen/Hofcafé vor Ort",
+      "Online-Shop: deutsch-nienhof.de",
+      "CITTI Märkte"
+    ],
     "website": "https://deutsch-nienhof.de",
     "beschreibung": "Ältestes und nördlichstes Bio-Weingut Deutschlands. Naturland-zertifiziert."
-  },
-  {
-    "id": "balthasar-ress",
-    "name": "Weingut Balthasar Ress (Weinberg Sylt-Keitum)",
-    "ort": "Keitum, Sylt",
-    "region": "Nordfriesland",
-    "gruendung": 2009,
-    "flaeche_ha": 0.3,
-    "sorten": ["Solaris"],
-    "vinifikation": "Fremd: Hattenheim/Rheingau",
-    "bio": false,
-    "besonderheiten": "VDP-Weingut aus dem Rheingau. Kleinste Parzelle, aber prominentester Name. Rebstockpacht für Privatpersonen möglich (555 Pächter). Erste Lese 2013.",
-    "bezugsquellen": ["Exklusiv über Balthasar Ress", "balthasar-ress.de", "Ausgewählte Sylter Restaurants", "Keitumer Supermarkt"],
-    "website": "https://balthasar-ress.de",
-    "beschreibung": "VDP-Weingut aus dem Rheingau mit Weinberg auf Sylt."
-  },
-  {
-    "id": "soelviin",
-    "name": "Söl'Viin (Sylter Weinfreunde)",
-    "ort": "Keitum, Sylt",
-    "region": "Nordfriesland",
-    "gruendung": 2009,
-    "flaeche_ha": 0.7,
-    "sorten": ["Solaris"],
-    "vinifikation": "",
-    "bio": true,
-    "besonderheiten": "Betrieben von drei Sylter Quereinsteigern: Brigitte Quendler (Sommelière), Olaf Klein, Henning Lehmann. Ökologischer Anbau. Komplett ehrenamtlich / aus Leidenschaft.",
-    "bezugsquellen": ["Lokaler Verkauf auf Sylt", "jm-weinshop.de", "Sehr limitierte Mengen"],
-    "website": "",
-    "beschreibung": "Ehrenamtliches Weinprojekt dreier Sylter Quereinsteiger. Nördlichster Weinberg Deutschlands."
-  },
-  {
-    "id": "gut-eckhof",
-    "name": "Gut Eckhof",
-    "ort": "Strande an der Kieler Förde",
-    "region": "Kieler Förde",
-    "gruendung": null,
-    "flaeche_ha": null,
-    "sorten": ["Solaris", "Riesel", "Cabaret Noir"],
-    "vinifikation": "Fremd: Winzer Philip Nelles vom Weingut Nelles im Ahrtal",
-    "bio": false,
-    "besonderheiten": "Kelterung durch erfahrenen Ahrtal-Winzer Philip Nelles.",
-    "bezugsquellen": [],
-    "website": "",
-    "beschreibung": "Weingut an der Kieler Förde, Kelterung im Ahrtal durch Winzer Philip Nelles."
   },
   {
     "id": "schatoh-feldmark",
@@ -110,29 +130,35 @@
     "ort": "Bargteheide",
     "region": "Stormarn",
     "gruendung": 2016,
-    "flaeche_ha": null,
-    "sorten": ["Solaris"],
+    "flaeche_ha": 1.7,
+    "sorten": [
+      "Solaris"
+    ],
     "vinifikation": "",
     "bio": false,
     "besonderheiten": "",
     "bezugsquellen": [],
-    "website": "",
+    "website": "https://www.schatoh-feldmark.de",
     "beschreibung": "Weingut in Bargteheide, Kreis Stormarn."
   },
   {
-    "id": "fjordwein",
-    "name": "Fjordwein – Weingut Jensen",
-    "ort": "Dollerup bei Flensburg",
-    "region": "Flensburg",
+    "id": "gut-eckhof",
+    "name": "Gut Eckhof",
+    "ort": "Strande an der Kieler Förde",
+    "region": "Kieler Förde",
     "gruendung": null,
-    "flaeche_ha": 3,
-    "sorten": ["Solaris", "Johanniter", "Muscaris", "Hibernal", "Souvignier Gris", "Pinotin"],
-    "vinifikation": "Eigen",
+    "flaeche_ha": 1.5,
+    "sorten": [
+      "Solaris",
+      "Riesel",
+      "Cabaret Noir"
+    ],
+    "vinifikation": "Fremd: Winzer Philip Nelles vom Weingut Nelles im Ahrtal",
     "bio": false,
-    "besonderheiten": "",
-    "bezugsquellen": ["Ab Hof"],
-    "website": "",
-    "beschreibung": "Junges Weingut bei Flensburg, Sortiment im Aufbau."
+    "besonderheiten": "Kelterung durch erfahrenen Ahrtal-Winzer Philip Nelles.",
+    "bezugsquellen": [],
+    "website": "https://gut-eckhof.de",
+    "beschreibung": "Weingut an der Kieler Förde, Kelterung im Ahrtal durch Winzer Philip Nelles."
   },
   {
     "id": "wittenseer",
@@ -141,12 +167,60 @@
     "region": "Rendsburg-Eckernförde",
     "gruendung": 2019,
     "flaeche_ha": 1,
-    "sorten": ["Solaris", "Cabernet Cortis"],
+    "sorten": [
+      "Solaris",
+      "Cabernet Cortis"
+    ],
     "vinifikation": "Fremd: Weingut Höfflin am Kaiserstuhl",
     "bio": true,
     "besonderheiten": "Ausbau in Kooperation mit Weltklasse-Weingut Höfflin am Kaiserstuhl.",
-    "bezugsquellen": ["Regionaler Handel"],
+    "bezugsquellen": [
+      "Regionaler Handel"
+    ],
     "website": "https://wittenseer-weinmanufaktur.de",
     "beschreibung": "Jüngstes Weingut der Region. Ausbau in Kooperation mit Weingut Höfflin am Kaiserstuhl."
+  },
+  {
+    "id": "soelviin",
+    "name": "Söl'Viin (Sylter Weinfreunde)",
+    "ort": "Keitum, Sylt",
+    "region": "Nordfriesland",
+    "gruendung": 2009,
+    "flaeche_ha": 0.7,
+    "sorten": [
+      "Solaris"
+    ],
+    "vinifikation": "",
+    "bio": true,
+    "besonderheiten": "Betrieben von drei Sylter Quereinsteigern: Brigitte Quendler (Sommelière), Olaf Klein, Henning Lehmann. Ökologischer Anbau. Komplett ehrenamtlich / aus Leidenschaft.",
+    "bezugsquellen": [
+      "Lokaler Verkauf auf Sylt",
+      "jm-weinshop.de",
+      "Sehr limitierte Mengen"
+    ],
+    "website": "",
+    "beschreibung": "Ehrenamtliches Weinprojekt dreier Sylter Quereinsteiger. Nördlichster Weinberg Deutschlands."
+  },
+  {
+    "id": "balthasar-ress",
+    "name": "Weingut Balthasar Ress (Weinberg Sylt-Keitum)",
+    "ort": "Keitum, Sylt",
+    "region": "Nordfriesland",
+    "gruendung": 2009,
+    "flaeche_ha": 0.3,
+    "sorten": [
+      "Solaris"
+    ],
+    "vinifikation": "Fremd: Hattenheim/Rheingau",
+    "bio": false,
+    "besonderheiten": "VDP-Weingut aus dem Rheingau. Kleinste Parzelle, aber prominentester Name. Rebstockpacht für Privatpersonen möglich (555 Pächter). Erste Lese 2013.",
+    "bezugsquellen": [
+      "Exklusiv über Balthasar Ress",
+      "balthasar-ress.de",
+      "Ausgewählte Sylter Restaurants",
+      "Keitumer Supermarkt"
+    ],
+    "website": "https://balthasar-ress.de",
+    "beschreibung": "VDP-Weingut aus dem Rheingau mit Weinberg auf Sylt."
   }
 ]

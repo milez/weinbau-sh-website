@@ -89,6 +89,41 @@
   <section class="section">
     <div class="container">
 
+      <div style="margin-bottom:3rem;">
+        <div style="background:var(--color-light);border:1px solid var(--color-border);border-radius:var(--radius);overflow:hidden">
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+          <div id="karte-top" style="height:480px"></div>
+          <div style="padding:.8rem 1.2rem;font-size:.78rem;color:var(--color-muted);border-top:1px solid var(--color-border)">
+            OpenStreetMap · Klicken Sie auf einen Marker für Details
+          </div>
+        </div>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script>
+        (function(){
+          var map = L.map('karte-top').setView([54.4, 9.7], 8);
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            maxZoom: 15
+          }).addTo(map);
+          var s = [
+            [54.901, 8.363, "Balthasar Ress & Söl'Viin", "Keitum, Sylt", "weingueter/balthasar-ress.html"],
+            [54.688, 8.515, "Weingut Waalem", "Nieblum, Föhr", "weingueter/waalem.html"],
+            [54.178, 10.571, "Obst- & Weingut Ingenhof", "Malkwitz bei Malente", "weingueter/ingenhof.html"],
+            [54.211, 10.445, "Weingut SJ Montigny", "Grebin", "weingueter/montigny.html"],
+            [54.278, 9.872, "Gut Deutsch-Nienhof", "Westensee", "weingueter/deutsch-nienhof.html"],
+            [54.383, 9.788, "Wittenseer Weinmanufaktur", "Groß Wittensee", "weingueter/wittenseer.html"],
+            [54.435, 10.175, "Gut Eckhof", "Strande", "weingueter/gut-eckhof.html"],
+            [53.726, 10.263, "Schatoh Feldmark", "Bargteheide", "weingueter/schatoh-feldmark.html"],
+            [54.744, 9.643, "Fjordwein – Weingut Jensen", "Dollerup", "weingueter/fjordwein.html"]
+          ];
+          s.forEach(function(d){
+            L.marker([d[0], d[1]]).addTo(map)
+              .bindPopup('<strong><a href="'+d[4]+'">'+d[2]+'</a></strong><br>'+d[3]);
+          });
+        })();
+        </script>
+      </div>
+
       <div class="filter-bar">
         <span class="filter-label">Filtern:</span>
         <button class="filter-btn active" data-filter="alle">Alle</button>
@@ -127,41 +162,6 @@
         <a href="mailto:info@weinbau-sh.de" style="color:var(--color-accent2);">Korrektur melden</a>
       </p>
 
-      <div style="margin-top:3rem;">
-        <h2>Standorte der Weingüter</h2>
-        <div style="background:var(--color-light);border:1px solid var(--color-border);border-radius:var(--radius);overflow:hidden">
-          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-          <div id="karte" style="height:480px"></div>
-          <div style="padding:.8rem 1.2rem;font-size:.78rem;color:var(--color-muted);border-top:1px solid var(--color-border)">
-            OpenStreetMap · Marker zeigen die Standorte aller aktiven Weingüter
-          </div>
-        </div>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-        <script>
-        (function(){
-          var map = L.map('karte').setView([54.4, 9.7], 8);
-          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-            maxZoom: 15
-          }).addTo(map);
-          var s = [
-            [54.901, 8.363, "Balthasar Ress & Söl'Viin", "Keitum, Sylt", "weingueter/balthasar-ress.html"],
-            [54.688, 8.515, "Weingut Waalem", "Nieblum, Föhr", "weingueter/waalem.html"],
-            [54.178, 10.571, "Obst- & Weingut Ingenhof", "Malkwitz bei Malente", "weingueter/ingenhof.html"],
-            [54.211, 10.445, "Weingut SJ Montigny", "Grebin", "weingueter/montigny.html"],
-            [54.278, 9.872, "Gut Deutsch-Nienhof", "Westensee", "weingueter/deutsch-nienhof.html"],
-            [54.383, 9.788, "Wittenseer Weinmanufaktur", "Groß Wittensee", "weingueter/wittenseer.html"],
-            [54.435, 10.175, "Gut Eckhof", "Strande", "weingueter/gut-eckhof.html"],
-            [53.726, 10.263, "Schatoh Feldmark", "Bargteheide", "weingueter/schatoh-feldmark.html"],
-            [54.744, 9.643, "Fjordwein – Weingut Jensen", "Dollerup", "weingueter/fjordwein.html"]
-          ];
-          s.forEach(function(d){
-            L.marker([d[0], d[1]]).addTo(map)
-              .bindPopup('<strong><a href="'+d[4]+'">'+d[2]+'</a></strong><br>'+d[3]);
-          });
-        })();
-        </script>
-      </div>
     </div>
   </section>
 
@@ -183,6 +183,7 @@
         <a href="weingueter.html">Weingüter</a>
         <a href="weine.html">Weine</a>
         <a href="wirtschaftlichkeit.html">Wirtschaftlichkeit</a>
+        <a href="kontakt.html">Kontakt</a>
         <a href="impressum.html">Impressum</a>
       </nav>
     </div>
