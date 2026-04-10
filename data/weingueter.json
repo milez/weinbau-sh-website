@@ -83,7 +83,7 @@
     "ort": "Grebin",
     "region": "Holsteinische Schweiz",
     "gruendung": 2009,
-    "flaeche_ha": 2,
+    "flaeche_ha": 3,
     "sorten": [
       "Solaris",
       "Felicia",
@@ -132,7 +132,9 @@
     "gruendung": 2016,
     "flaeche_ha": 1.7,
     "sorten": [
-      "Solaris"
+      "Solaris",
+      "Johanniter",
+      "Muscaris"
     ],
     "vinifikation": "",
     "bio": false,
@@ -227,9 +229,10 @@
     "ort": "Keitum, Sylt",
     "region": "Nordfriesland",
     "gruendung": 2009,
-    "flaeche_ha": 0.3,
+    "flaeche_ha": 1,
     "sorten": [
-      "Solaris"
+      "Solaris",
+      "Rivaner"
     ],
     "vinifikation": "Fremd: Hattenheim/Rheingau",
     "bio": false,
@@ -242,5 +245,47 @@
     ],
     "website": "https://balthasar-ress.de",
     "beschreibung": "VDP-Weingut aus dem Rheingau mit Weinberg auf Sylt."
+  },
+  {
+    "id": "weingarten-lemkenhafen",
+    "name": "Weingarten Lemkenhafen (Flünk)",
+    "ort": "Lemkenhafen, Fehmarn",
+    "region": "Ostholstein",
+    "gruendung": null,
+    "flaeche_ha": 1,
+    "sorten": [
+      "Muscaris",
+      "Souvignier Gris",
+      "Johanniter",
+      "Solaris",
+      "Monarch",
+      "Cabernet Cortis"
+    ],
+    "vinifikation": "",
+    "bio": false,
+    "besonderheiten": "Permakultur-Weinprojekt auf Fehmarn, im Aufbau. Erste Produktion noch ausstehend.",
+    "bezugsquellen": [],
+    "website": "https://fluenk.com",
+    "beschreibung": "Permakultur-Weinprojekt auf Fehmarn. Im Aufbau, breites PIWI-Sortiment."
+  },
+  {
+    "id": "sund-nordvin",
+    "name": "Thomas Pinçon (Sund/Nordvin)",
+    "ort": "Wulfen, Fehmarn",
+    "region": "Ostholstein",
+    "gruendung": null,
+    "flaeche_ha": 3,
+    "sorten": [
+      "Weißburgunder",
+      "Grauburgunder",
+      "Solaris",
+      "Rondo"
+    ],
+    "vinifikation": "Eigen",
+    "bio": true,
+    "besonderheiten": "Biodynamischer Anbau auf Fehmarn. Ungewöhnlich: klassische Burgundersorten neben PIWI. Ca. 600 Flaschen/Jahr.",
+    "bezugsquellen": [],
+    "website": "",
+    "beschreibung": "Biodynamisches Weinprojekt auf Fehmarn mit klassischen Burgundersorten und PIWI."
   }
 ]
