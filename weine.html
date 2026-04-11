@@ -169,8 +169,8 @@
   (function(){
     let allData = [];
     let activeFilter = 'alle';
-    let sortCol = null;
-    let sortDir = 1;
+    let sortCol = 'preis_eur';
+    let sortDir = -1;
 
     const TYP_MAP = { weiss:'Weißwein', rose:'Rosé', rot:'Rotwein', schaum:'Schaumwein', perl:'Perlwein' };
 
@@ -254,7 +254,12 @@
 
     fetch('data/weine.json')
       .then(r => r.json())
-      .then(data => { allData = data; render(); })
+      .then(data => {
+        allData = data;
+        const preisHeader = document.querySelector('thead th[data-col="preis_eur"]');
+        if(preisHeader) preisHeader.classList.add('sort-desc');
+        render();
+      })
       .catch(() => {
         document.getElementById('weine-tbody').innerHTML =
           '<tr><td colspan="9" style="padding:2rem;text-align:center;color:var(--color-muted);">Daten konnten nicht geladen werden. Bitte über lokalen Webserver öffnen.</td></tr>';
