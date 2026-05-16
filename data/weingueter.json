@@ -287,5 +287,24 @@
     "bezugsquellen": [],
     "website": "",
     "beschreibung": "Biodynamisches Weinprojekt auf Fehmarn mit klassischen Burgundersorten und PIWI."
+  },
+  {
+    "id": "vossbarg",
+    "name": "Vossbarg Wein",
+    "ort": "Wittensee, Naturpark Hüttener Berge",
+    "region": "Rendsburg-Eckernförde",
+    "gruendung": 2023,
+    "flaeche_ha": null,
+    "sorten": [
+      "Souvignier Gris",
+      "Johanniter",
+      "Solaris"
+    ],
+    "vinifikation": "Fremd: Familieneigenes Weingut bei Stuttgart (Bruder Markus)",
+    "bio": false,
+    "besonderheiten": "Familienbetrieb, naturnaher Anbau, Handlese, Spontangärung mit natürlichen Hefen. Erste Ernte Herbst 2025, Abfüllung April 2026. Kelterung durch Bruder Markus im familieneigenen Weingut bei Stuttgart.",
+    "bezugsquellen": [],
+    "website": "https://www.vossbargwein.de",
+    "beschreibung": "Familienbetrieb am Wittensee im Naturpark Hüttener Berge. Erste Ernte 2025, Kelterung durch Bruder Markus im familieneigenen Weingut bei Stuttgart."
   }
 ]
