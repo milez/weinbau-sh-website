@@ -70,12 +70,14 @@
     ],
     "vinifikation": "Eigen",
     "bio": false,
-    "besonderheiten": "",
+    "besonderheiten": "Hofeigene Kellerei, Anbau nach ökologischen Kriterien (nicht zertifiziert), Wein-Erlebnisse (Führungen, Picknick, Events), Ceres-Award-2026-Finalist",
     "bezugsquellen": [
-      "Ab Hof"
+      "Ab Hof",
+      "Onlineshop",
+      "Verkaufsstellen"
     ],
     "website": "https://fjordwein.com",
-    "beschreibung": "Junges Weingut bei Flensburg, Sortiment im Aufbau."
+    "beschreibung": "Familienbetrieb seit 1927 in Dollerup an der Flensburger Förde, Weinbau in 4. Generation. Hofeigene Kellerei, 8 Weine von leicht bis Barrique und Sekt."
   },
   {
     "id": "montigny",
@@ -291,7 +293,7 @@
   {
     "id": "vossbarg",
     "name": "Vossbarg Wein",
-    "ort": "Wittensee, Naturpark Hüttener Berge",
+    "ort": "Bünsdorf am Wittensee, Naturpark Hüttener Berge",
     "region": "Rendsburg-Eckernförde",
     "gruendung": 2023,
     "flaeche_ha": null,
@@ -305,6 +307,6 @@
     "besonderheiten": "Familienbetrieb, naturnaher Anbau, Handlese, Spontangärung mit natürlichen Hefen. Erste Ernte Herbst 2025, Abfüllung April 2026. Kelterung durch Bruder Markus im familieneigenen Weingut bei Stuttgart.",
     "bezugsquellen": [],
     "website": "https://www.vossbargwein.de",
-    "beschreibung": "Familienbetrieb am Wittensee im Naturpark Hüttener Berge. Erste Ernte 2025, Kelterung durch Bruder Markus im familieneigenen Weingut bei Stuttgart."
+    "beschreibung": "Familienbetrieb in Bünsdorf am Wittensee im Naturpark Hüttener Berge. Erste Ernte 2025, Kelterung durch Bruder Markus im familieneigenen Weingut bei Stuttgart."
   }
 ]
