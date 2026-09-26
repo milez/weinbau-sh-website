@@ -65,17 +65,17 @@
     "shop_url": "https://ingenhof.de/products/sauvitage-2023-halbtrocken"
   },
   {
-    "id": "ingenhof-souvignier-gris-2022",
-    "name": "Souvignier Gris 2022 trocken",
+    "id": "ingenhof-souvignier-gris-2023",
+    "name": "Souvignier Gris 2023 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Souvignier Gris",
     "typ": "Weißwein",
     "ausbau": "trocken",
-    "jahrgang": 2022,
+    "jahrgang": 2023,
     "preis_eur": 13.5,
     "anmerkung": "Norddeutsche Antwort auf Grauburgunder",
-    "shop_url": "https://ingenhof.de/products/souvignier-gris-2022-trocken"
+    "shop_url": "https://ingenhof.de/products/souvignier-gris-2023-trocken"
   },
   {
     "id": "ingenhof-muscaris-2024-halbtrocken",
@@ -88,20 +88,20 @@
     "jahrgang": 2024,
     "preis_eur": 14.5,
     "anmerkung": "Aromatisch, Muskat-Noten",
-    "shop_url": "https://ingenhof.de/products/solaris-2023-halbtrocken-kopie"
+    "shop_url": "https://ingenhof.de/products/muscaris-2024-halbtrocken"
   },
   {
-    "id": "ingenhof-secco-weiss-2023",
-    "name": "Secco 2023 trocken",
+    "id": "ingenhof-secco-weiss-2025",
+    "name": "Secco 2025 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Weißwein Cuvée",
     "typ": "Perlwein",
     "ausbau": "trocken",
-    "jahrgang": 2023,
+    "jahrgang": 2025,
     "preis_eur": 11.0,
     "anmerkung": "",
-    "shop_url": "https://ingenhof.de/products/secco-2023-trocken"
+    "shop_url": "https://ingenhof.de/products/secco-2025-trocken"
   },
   {
     "id": "ingenhof-secco-rose-2023",
@@ -117,30 +117,30 @@
     "shop_url": "https://ingenhof.de/products/secco-rose-2023-trocken"
   },
   {
-    "id": "ingenhof-rose-2023-trocken",
-    "name": "Rosé 2023 trocken",
+    "id": "ingenhof-rose-2024-trocken",
+    "name": "Rosé 2024 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Regent",
     "typ": "Rosé",
     "ausbau": "trocken",
-    "jahrgang": 2023,
+    "jahrgang": 2024,
     "preis_eur": 11.0,
     "anmerkung": "",
-    "shop_url": "https://ingenhof.de/products/rose-2023-trocken"
+    "shop_url": "https://ingenhof.de/products/rose-2024-trocken"
   },
   {
-    "id": "ingenhof-rose-2023-halbtrocken",
-    "name": "Rosé 2023 halbtrocken",
+    "id": "ingenhof-rose-2025-halbtrocken",
+    "name": "Rosé 2025 halbtrocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Regent",
     "typ": "Rosé",
     "ausbau": "halbtrocken",
-    "jahrgang": 2023,
+    "jahrgang": 2025,
     "preis_eur": 11.0,
     "anmerkung": "",
-    "shop_url": "https://ingenhof.de/products/rose-2023-halbtrocken"
+    "shop_url": "https://ingenhof.de/products/rose-2025-halbtrocken"
   },
   {
     "id": "ingenhof-blanc-de-noir-2023",
@@ -156,30 +156,17 @@
     "shop_url": "https://ingenhof.de/products/blanc-de-noir-2023-trocken"
   },
   {
-    "id": "ingenhof-regent-2020-halbtrocken",
-    "name": "Regent 2020 halbtrocken",
-    "weingut_id": "ingenhof",
-    "weingut_name": "Ingenhof",
-    "sorte": "Regent",
-    "typ": "Rotwein",
-    "ausbau": "halbtrocken",
-    "jahrgang": 2020,
-    "preis_eur": 12.0,
-    "anmerkung": "",
-    "shop_url": "https://ingenhof.de/products/regent-2020-halbtrocken"
-  },
-  {
-    "id": "ingenhof-cabernet-cantor-2022",
-    "name": "Cabernet Cantor 2022 trocken",
+    "id": "ingenhof-cabernet-cantor-2023",
+    "name": "Cabernet Cantor 2023 trocken",
     "weingut_id": "ingenhof",
     "weingut_name": "Ingenhof",
     "sorte": "Cabernet Cantor",
     "typ": "Rotwein",
     "ausbau": "trocken",
-    "jahrgang": 2022,
+    "jahrgang": 2023,
     "preis_eur": 14.0,
     "anmerkung": "Ähnlich Merlot",
-    "shop_url": "https://ingenhof.de/products/cabernet-cantor-2022-trocken"
+    "shop_url": "https://ingenhof.de/products/cabernet-cantor-2023-trocken"
   },
   {
     "id": "ingenhof-cabernet-cantor-2023-halbtrocken",
@@ -294,7 +281,7 @@
     "typ": "Weißwein",
     "ausbau": "feinherb",
     "jahrgang": 2024,
-    "preis_eur": 15.99,
+    "preis_eur": 11.99,
     "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe",
     "shop_url": "https://www.schneekloth.de/weisswein-feinherb-montigny-so-mookt-wi-dat-bio-vegan-0-75l/542338"
   },
@@ -307,7 +294,7 @@
     "typ": "Rosé",
     "ausbau": "feinherb",
     "jahrgang": 2025,
-    "preis_eur": 15.99,
+    "preis_eur": 11.99,
     "anmerkung": "Trauben aus Grebin, gekeltert an der Nahe",
     "shop_url": "https://www.schneekloth.de/rosewein-feinherb-montigny-so-mookt-wi-dat-bio-vegan-0-75l/542339"
   },
@@ -403,16 +390,16 @@
     "shop_url": "https://shop.balthasar-ress.de/Soel-ring-Solaris-Sekt-extra-brut-aus-Sylt/17019-NV-M-EU"
   },
   {
-    "id": "soelviin-2024",
-    "name": "Söl'Viin 2024 Solaris",
+    "id": "soelviin-2025",
+    "name": "Söl'Viin 2025 Solaris",
     "weingut_id": "soelviin",
     "weingut_name": "Söl'Viin",
     "sorte": "Solaris",
     "typ": "Weißwein",
     "ausbau": "trocken",
-    "jahrgang": 2024,
+    "jahrgang": 2025,
     "preis_eur": 36.0,
-    "anmerkung": "Sehr limitiert",
+    "anmerkung": "Sehr limitiert, Vorverkauf",
     "shop_url": "https://jm-weinshop.de/collections/selektion-jorg-muller/products/sylterwein"
   },
   {
@@ -479,19 +466,6 @@
     "preis_eur": 20.0,
     "anmerkung": "Falstaff 91+ Pkt. (Jhg. 2022)",
     "shop_url": "https://www.schatoh-feldmark.de/shop/p/2023-sieben-eichen-barrique-trocken"
-  },
-  {
-    "id": "eckhof-2022-cuvee",
-    "name": "2022 Einer von Hier Cuvée trocken",
-    "weingut_id": "gut-eckhof",
-    "weingut_name": "Gut Eckhof",
-    "sorte": "Solaris / Riesel",
-    "typ": "Weißwein",
-    "ausbau": "trocken",
-    "jahrgang": 2022,
-    "preis_eur": 14.0,
-    "anmerkung": "11,5 Vol.-%, saftig & frisch",
-    "shop_url": "https://www.gut-eckhof.de/product/2022-eckhof---einer-von-hier-cuvee-trocken-so-rr-rioky"
   },
   {
     "id": "eckhof-2021-cuvee",
@@ -607,7 +581,7 @@
     "ausbau": "Orange-Stil",
     "jahrgang": 2025,
     "preis_eur": 26.0,
-    "anmerkung": "Orange-Wein mit sanften Tanninen, vielschichtige Aromatik",
+    "anmerkung": "Orange-Wein mit sanften Tanninen, vielschichtige Aromatik. Ausverkauft.",
     "shop_url": "https://shop.fjordwein.com/products/fjordwein-solstice-2025"
   },
   {
